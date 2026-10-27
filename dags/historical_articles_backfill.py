@@ -160,6 +160,21 @@ def historical_articles_backfill():
         target_table = f"{project_id}.{dataset_id}.articles"
         staging_table = staging_info['staging_table']
         
+        # Ensure target table exists before MERGE
+        create_table_sql = f"""
+        CREATE TABLE IF NOT EXISTS `{target_table}` (
+            id INT64,
+            title STRING,
+            content STRING,
+            published_at TIMESTAMP,
+            author_id INT64,
+            created_at TIMESTAMP,
+            updated_at TIMESTAMP,
+            deleted_at TIMESTAMP
+        );
+        """
+        client.query(create_table_sql).result()
+        
         # Use MERGE DML query for correct upsert behavior
         merge_query = f"""
         MERGE `{target_table}` T

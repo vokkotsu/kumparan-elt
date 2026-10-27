@@ -116,6 +116,21 @@ def hard_delete_sync():
         target_table = f"{project_id}.{dataset_id}.articles"
         temp_ids_table = temp_info['temp_ids_table']
         
+        # Ensure target table exists before DELETE
+        create_table_sql = f"""
+        CREATE TABLE IF NOT EXISTS `{target_table}` (
+            id INT64,
+            title STRING,
+            content STRING,
+            published_at TIMESTAMP,
+            author_id INT64,
+            created_at TIMESTAMP,
+            updated_at TIMESTAMP,
+            deleted_at TIMESTAMP
+        );
+        """
+        client.query(create_table_sql).result()
+        
         delete_query = f"""
         DELETE FROM `{target_table}`
         WHERE id NOT IN (
