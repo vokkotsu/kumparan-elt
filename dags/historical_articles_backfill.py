@@ -96,6 +96,10 @@ def historical_articles_backfill():
             print("No file to load")
             return None
         
+        # Set Google Application Credentials so BigQuery can authenticate
+        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = \
+            '/opt/airflow/config/kumparan-elt-project-96478b3ced4a.json'
+        
         df = pd.read_json(extracted_file_path, orient='records')
         
         if df.empty:
@@ -115,8 +119,10 @@ def historical_articles_backfill():
             if col in df.columns:
                 df[col] = pd.to_datetime(df[col], errors='coerce')
         
-        job_config = bigquery_hook.job_config
-        job_config.write_disposition = 'WRITE_TRUNCATE'
+        # Create LoadJobConfig with WRITE_TRUNCATE disposition
+        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
+        job_config = LoadJobConfig()
+        job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
         client.load_table_from_dataframe(df, table_ref, job_config=job_config).result()
         
