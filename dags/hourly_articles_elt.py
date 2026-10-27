@@ -143,7 +143,7 @@ def hourly_articles_elt():
         target_table = f"{project_id}.{dataset_id}.articles"
         staging_table = staging_info['staging_table']
         
-        # Ensure target table exists before MERGE
+        # Ensure target table exists before LOAD
         create_table_sql = f"""
         CREATE TABLE IF NOT EXISTS `{target_table}` (
             id INT64,
@@ -158,28 +158,20 @@ def hourly_articles_elt():
         """
         client.query(create_table_sql).result()
         
-        merge_query = f"""
-        MERGE `{target_table}` T
-        USING `{staging_table}` S
-        ON T.id = S.id
-        WHEN MATCHED THEN
-          UPDATE SET
-            title = S.title,
-            content = S.content,
-            published_at = S.published_at,
-            author_id = S.author_id,
-            created_at = S.created_at,
-            updated_at = S.updated_at,
-            deleted_at = S.deleted_at
-        WHEN NOT MATCHED THEN
-          INSERT (id, title, content, published_at, author_id, created_at, updated_at, deleted_at)
-          VALUES (S.id, S.title, S.content, S.published_at, S.author_id, S.created_at, S.updated_at, S.deleted_at)
-        """
+        # Use LOAD job to append data to target table (works on free tier)
+        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
+        load_job_config = LoadJobConfig()
+        load_job_config.write_disposition = WriteDisposition.WRITE_APPEND
         
-        query_job = client.query(merge_query)
-        query_job.result()
+        # Read from staging table and load to target table
+        df = client.query(f"SELECT * FROM `{staging_table}`").to_dataframe()
         
-        print(f"Merge completed. Rows affected: {query_job.num_dml_affected_rows}")
+        # Append with WRITE_APPEND to accumulate data
+        target_full_name = f"{project_id}.{dataset_id}.articles"
+        load_job = client.load_table_from_dataframe(df, target_full_name, job_config=load_job_config)
+        load_job.result()
+        
+        print(f"Merge completed. Rows added: {load_job.output_rows}")
     
     @task
     def cleanup(staging_info):
