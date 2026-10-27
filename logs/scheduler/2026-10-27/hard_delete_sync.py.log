@@ -1,0 +1,1371 @@
+[2026-10-27T07:33:13.871+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:33:13.873+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:33:13.877+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:13.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:33:13.923+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:33:14.161+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.161+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-10-27T07:33:14.177+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.177+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-10-27T07:33:14.187+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.187+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-10-27T07:33:14.188+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.188+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:33:14.202+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.202+0000] {dag.py:2963} INFO - Creating ORM DAG for hard_delete_sync
+[2026-10-27T07:33:14.215+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.215+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:33:14.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.379 seconds
+[2026-10-27T07:33:44.457+0000] {processor.py:157} INFO - Started process (PID=192) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:33:44.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:33:44.462+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:44.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:33:44.490+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:33:44.524+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:44.523+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:33:44.553+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:44.552+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:33:44.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.132 seconds
+[2026-10-27T07:34:14.847+0000] {processor.py:157} INFO - Started process (PID=207) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:34:14.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:34:14.854+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:14.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:34:14.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:34:14.917+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:14.916+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:34:14.947+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:14.947+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:34:14.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.132 seconds
+[2026-10-27T07:34:45.228+0000] {processor.py:157} INFO - Started process (PID=222) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:34:45.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:34:45.231+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:45.230+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:34:45.257+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:34:45.292+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:45.291+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:34:45.321+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:45.321+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:34:45.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.122 seconds
+[2026-10-27T07:35:15.594+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:35:15.596+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:35:15.599+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:15.598+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:35:15.625+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:35:15.658+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:15.657+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:35:15.687+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:15.687+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:35:15.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.131 seconds
+[2026-10-27T07:35:45.966+0000] {processor.py:157} INFO - Started process (PID=252) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:35:45.968+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:35:45.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:45.970+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:35:45.995+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:35:46.029+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:46.028+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:35:46.058+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:46.058+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:35:46.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T07:36:16.333+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:36:16.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:36:16.337+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:16.337+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:36:16.367+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:36:16.404+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:16.403+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:36:16.445+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:16.444+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:36:16.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.156 seconds
+[2026-10-27T07:36:46.721+0000] {processor.py:157} INFO - Started process (PID=282) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:36:46.722+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:36:46.724+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:46.724+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:36:46.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:36:46.784+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:46.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:36:46.823+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:46.823+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:36:46.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.135 seconds
+[2026-10-27T07:37:17.131+0000] {processor.py:157} INFO - Started process (PID=297) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:37:17.133+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:37:17.137+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:17.137+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:37:17.168+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:37:17.202+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:17.201+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:37:17.230+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:17.229+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:37:17.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.137 seconds
+[2026-10-27T07:37:47.557+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:37:47.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:37:47.560+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:47.560+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:37:47.583+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:37:47.615+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:47.614+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:37:47.642+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:47.642+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:37:47.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T07:38:17.990+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:38:17.992+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:38:17.997+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:17.996+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:38:18.030+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:38:18.053+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:18.053+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:38:18.103+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:18.103+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:38:18.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.154 seconds
+[2026-10-27T07:38:48.401+0000] {processor.py:157} INFO - Started process (PID=342) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:38:48.402+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:38:48.405+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:48.405+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:38:48.431+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:38:48.466+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:48.465+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:38:48.496+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:48.495+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:38:48.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.129 seconds
+[2026-10-27T07:39:18.796+0000] {processor.py:157} INFO - Started process (PID=357) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:39:18.797+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:39:18.800+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:18.800+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:39:18.824+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:39:18.854+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:18.853+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:39:18.882+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:18.882+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:39:18.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.125 seconds
+[2026-10-27T07:39:49.150+0000] {processor.py:157} INFO - Started process (PID=372) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:39:49.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:39:49.159+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:49.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:39:49.190+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:39:49.223+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:49.222+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:39:49.249+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:49.249+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:39:49.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.127 seconds
+[2026-10-27T07:40:19.538+0000] {processor.py:157} INFO - Started process (PID=387) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:40:19.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:40:19.541+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:19.541+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:40:19.564+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:40:19.591+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:19.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:40:19.616+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:19.616+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:40:19.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.104 seconds
+[2026-10-27T07:40:49.906+0000] {processor.py:157} INFO - Started process (PID=402) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:40:49.907+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:40:49.909+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:49.908+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:40:49.930+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:40:49.955+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:49.955+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:40:49.978+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:49.978+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:40:50.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.097 seconds
+[2026-10-27T07:41:20.259+0000] {processor.py:157} INFO - Started process (PID=417) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:41:20.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:41:20.264+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:20.263+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:41:20.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:41:20.320+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:20.319+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:41:20.352+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:20.352+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:41:20.378+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.124 seconds
+[2026-10-27T07:41:50.675+0000] {processor.py:157} INFO - Started process (PID=432) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:41:50.676+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:41:50.659+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:50.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:41:50.684+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:41:50.719+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:50.718+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:41:50.746+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:50.746+0000] {dag.py:3722} INFO - Setting next_dagrun for hard_delete_sync to 2026-10-26T00:00:00+00:00, run_after=2026-10-27T00:00:00+00:00
+[2026-10-27T07:41:50.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.118 seconds
+[2026-10-27T07:42:21.031+0000] {processor.py:157} INFO - Started process (PID=456) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:42:21.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:42:21.034+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:21.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:42:21.058+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:42:21.086+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:21.085+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:42:21.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.102 seconds
+[2026-10-27T07:42:51.386+0000] {processor.py:157} INFO - Started process (PID=471) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:42:51.387+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:42:51.389+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:51.389+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:42:51.417+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:42:51.452+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:51.451+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:42:51.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.125 seconds
+[2026-10-27T07:43:21.814+0000] {processor.py:157} INFO - Started process (PID=486) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:43:21.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:43:21.820+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:21.819+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:43:21.848+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:43:21.878+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:21.878+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:43:21.927+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T07:43:52.199+0000] {processor.py:157} INFO - Started process (PID=501) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:43:52.201+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:43:52.205+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:52.205+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:43:52.231+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:43:52.265+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:52.265+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:43:52.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.124 seconds
+[2026-10-27T07:44:22.553+0000] {processor.py:157} INFO - Started process (PID=516) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:44:22.555+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:44:22.558+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:22.558+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:44:22.587+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:44:22.624+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:22.623+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:44:22.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.142 seconds
+[2026-10-27T07:44:52.966+0000] {processor.py:157} INFO - Started process (PID=531) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:44:52.967+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:44:52.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:52.969+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:44:52.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:44:53.032+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:53.031+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:44:53.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.131 seconds
+[2026-10-27T07:45:23.364+0000] {processor.py:157} INFO - Started process (PID=546) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:45:23.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:45:23.368+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:23.367+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:45:23.394+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:45:23.427+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:23.426+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:45:23.478+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.118 seconds
+[2026-10-27T07:45:53.715+0000] {processor.py:157} INFO - Started process (PID=561) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:45:53.717+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:45:53.720+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:53.720+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:45:53.750+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:45:53.788+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:53.788+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:45:53.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.138 seconds
+[2026-10-27T07:46:24.126+0000] {processor.py:157} INFO - Started process (PID=576) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:46:24.127+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:46:24.130+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:24.130+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:46:24.163+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:46:24.202+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:24.201+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:46:24.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.143 seconds
+[2026-10-27T07:46:54.522+0000] {processor.py:157} INFO - Started process (PID=591) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:46:54.523+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:46:54.525+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:54.525+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:46:54.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:46:54.601+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:54.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:46:54.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.155 seconds
+[2026-10-27T07:47:24.934+0000] {processor.py:157} INFO - Started process (PID=606) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:47:24.936+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:47:24.939+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:24.938+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:47:24.969+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:47:25.005+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:25.005+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:47:25.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.139 seconds
+[2026-10-27T07:47:55.320+0000] {processor.py:157} INFO - Started process (PID=621) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:47:55.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:47:55.325+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:55.324+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:47:55.360+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:47:55.397+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:55.396+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:47:55.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.132 seconds
+[2026-10-27T07:48:25.684+0000] {processor.py:157} INFO - Started process (PID=636) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:48:25.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:48:25.687+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:25.687+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:48:25.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:48:25.745+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:25.744+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:48:25.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.128 seconds
+[2026-10-27T07:48:56.085+0000] {processor.py:157} INFO - Started process (PID=651) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:48:56.087+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:48:56.092+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:56.091+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:48:56.147+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:48:56.202+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:56.201+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:48:56.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.221 seconds
+[2026-10-27T07:49:26.577+0000] {processor.py:157} INFO - Started process (PID=666) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:49:26.578+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:49:26.581+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:26.580+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:49:26.605+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:49:26.634+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:26.633+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:49:26.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T07:49:57.001+0000] {processor.py:157} INFO - Started process (PID=681) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:49:57.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:49:57.005+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:57.005+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:49:57.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:49:57.063+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:57.062+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:49:57.116+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T07:50:27.388+0000] {processor.py:157} INFO - Started process (PID=696) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:50:27.389+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:50:27.392+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:27.391+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:50:27.416+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:50:27.445+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:27.445+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:50:27.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.113 seconds
+[2026-10-27T07:50:57.744+0000] {processor.py:157} INFO - Started process (PID=711) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:50:57.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:50:57.748+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:57.747+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:50:57.773+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:50:57.800+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:57.799+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:50:57.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T07:51:28.098+0000] {processor.py:157} INFO - Started process (PID=726) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:51:28.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:51:28.102+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:28.102+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:51:28.126+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:51:28.152+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:28.152+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:51:28.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.112 seconds
+[2026-10-27T07:51:58.449+0000] {processor.py:157} INFO - Started process (PID=741) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:51:58.450+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:51:58.452+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:58.451+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:51:58.474+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:51:58.505+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:58.505+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:51:58.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.114 seconds
+[2026-10-27T07:52:28.832+0000] {processor.py:157} INFO - Started process (PID=762) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:52:28.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:52:28.835+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:28.835+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:52:28.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:52:28.886+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:28.885+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:52:28.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T07:52:59.192+0000] {processor.py:157} INFO - Started process (PID=777) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:52:59.193+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:52:59.196+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:59.196+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:52:59.221+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:52:59.254+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:59.253+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:52:59.309+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.122 seconds
+[2026-10-27T07:53:29.602+0000] {processor.py:157} INFO - Started process (PID=792) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:53:29.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:53:29.607+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:53:29.606+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:53:29.636+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:53:29.671+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:53:29.671+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:53:29.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.138 seconds
+[2026-10-27T07:53:59.975+0000] {processor.py:157} INFO - Started process (PID=807) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:53:59.976+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:53:59.978+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:53:59.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:54:00.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:54:00.036+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:00.035+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:54:00.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.117 seconds
+[2026-10-27T07:54:30.319+0000] {processor.py:157} INFO - Started process (PID=822) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:54:30.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:54:30.326+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:30.325+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:54:30.359+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:54:30.395+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:30.394+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:54:30.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.174 seconds
+[2026-10-27T07:55:00.730+0000] {processor.py:157} INFO - Started process (PID=837) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:55:00.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:55:00.736+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:00.736+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:55:00.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:55:00.799+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:00.798+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:55:00.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.125 seconds
+[2026-10-27T07:55:31.121+0000] {processor.py:157} INFO - Started process (PID=852) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:55:31.123+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:55:31.126+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:31.126+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:55:31.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:55:31.203+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:31.202+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:55:31.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.159 seconds
+[2026-10-27T07:56:01.541+0000] {processor.py:157} INFO - Started process (PID=867) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:56:01.542+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:56:01.546+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:01.545+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:56:01.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:56:01.606+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:01.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:56:01.662+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T07:56:31.921+0000] {processor.py:157} INFO - Started process (PID=882) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:56:31.924+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:56:31.926+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:31.926+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:56:31.956+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:56:31.990+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:31.989+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:56:32.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.134 seconds
+[2026-10-27T07:57:02.314+0000] {processor.py:157} INFO - Started process (PID=897) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:57:02.315+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:57:02.318+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:02.317+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:57:02.339+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:57:02.381+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:02.380+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:57:02.439+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.128 seconds
+[2026-10-27T07:57:32.692+0000] {processor.py:157} INFO - Started process (PID=912) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:57:32.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:57:32.695+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:32.695+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:57:32.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:57:32.742+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:32.741+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:57:32.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.099 seconds
+[2026-10-27T07:58:03.047+0000] {processor.py:157} INFO - Started process (PID=927) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:58:03.048+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:58:03.050+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:03.050+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:58:03.075+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:58:03.107+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:03.106+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:58:03.166+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T07:58:33.498+0000] {processor.py:157} INFO - Started process (PID=942) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:58:33.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:58:33.504+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:33.504+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:58:33.540+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:58:33.585+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:33.584+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:58:33.646+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.152 seconds
+[2026-10-27T07:59:03.900+0000] {processor.py:157} INFO - Started process (PID=957) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:59:03.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:59:03.903+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:03.903+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:59:03.931+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:59:03.960+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:03.959+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:59:04.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.125 seconds
+[2026-10-27T07:59:34.311+0000] {processor.py:157} INFO - Started process (PID=972) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:59:34.312+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T07:59:34.315+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:34.315+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:59:34.339+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T07:59:34.367+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:34.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:59:34.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T08:00:04.679+0000] {processor.py:157} INFO - Started process (PID=987) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:00:04.681+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:00:04.684+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:04.683+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:00:04.709+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:00:04.743+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:04.742+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:00:04.798+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.122 seconds
+[2026-10-27T08:00:35.067+0000] {processor.py:157} INFO - Started process (PID=1002) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:00:35.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:00:35.070+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:35.070+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:00:35.090+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:00:35.117+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:35.116+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:00:35.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.110 seconds
+[2026-10-27T08:01:05.443+0000] {processor.py:157} INFO - Started process (PID=1017) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:01:05.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:01:05.447+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:05.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:01:05.472+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:01:05.510+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:05.509+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:01:05.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.124 seconds
+[2026-10-27T08:01:35.813+0000] {processor.py:157} INFO - Started process (PID=1032) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:01:35.814+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:01:35.817+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:35.816+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:01:35.841+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:01:35.871+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:35.871+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:01:35.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.108 seconds
+[2026-10-27T08:02:06.244+0000] {processor.py:157} INFO - Started process (PID=1047) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:02:06.246+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:02:06.250+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:06.250+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:02:06.297+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:02:06.352+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:06.351+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:02:06.431+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.190 seconds
+[2026-10-27T08:02:36.706+0000] {processor.py:157} INFO - Started process (PID=1065) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:02:36.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:02:36.709+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:36.709+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:02:36.735+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:02:36.766+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:36.765+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:02:36.824+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.122 seconds
+[2026-10-27T08:03:07.116+0000] {processor.py:157} INFO - Started process (PID=1080) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:03:07.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:03:07.121+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:07.120+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:03:07.151+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:03:07.193+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:07.192+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:03:07.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.153 seconds
+[2026-10-27T08:03:37.586+0000] {processor.py:157} INFO - Started process (PID=1095) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:03:37.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:03:37.591+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:37.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:03:37.624+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:03:37.663+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:37.663+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:03:37.717+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.135 seconds
+[2026-10-27T08:04:07.979+0000] {processor.py:157} INFO - Started process (PID=1110) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:04:07.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:04:07.982+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:07.982+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:04:08.015+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:04:08.051+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:08.051+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:04:08.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T08:04:38.335+0000] {processor.py:157} INFO - Started process (PID=1125) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:04:38.336+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:04:38.340+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:38.340+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:04:38.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:04:38.398+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:38.397+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:04:38.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.117 seconds
+[2026-10-27T08:05:08.709+0000] {processor.py:157} INFO - Started process (PID=1140) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:05:08.710+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:05:08.712+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:08.711+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:05:08.735+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:05:08.768+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:08.767+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:05:08.824+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T08:05:39.094+0000] {processor.py:157} INFO - Started process (PID=1155) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:05:39.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:05:39.098+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:39.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:05:39.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:05:39.152+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:39.151+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:05:39.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T08:06:09.454+0000] {processor.py:157} INFO - Started process (PID=1170) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:06:09.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:06:09.457+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:09.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:06:09.478+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:06:09.507+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:09.506+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:06:09.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.111 seconds
+[2026-10-27T08:06:39.810+0000] {processor.py:157} INFO - Started process (PID=1185) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:06:39.811+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:06:39.813+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:39.813+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:06:39.836+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:06:39.867+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:39.866+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:06:39.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.127 seconds
+[2026-10-27T08:07:10.206+0000] {processor.py:157} INFO - Started process (PID=1200) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:07:10.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:07:10.209+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:10.209+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:07:10.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:07:10.267+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:10.266+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:07:10.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.112 seconds
+[2026-10-27T08:07:40.589+0000] {processor.py:157} INFO - Started process (PID=1215) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:07:40.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:07:40.593+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:40.593+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:07:40.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:07:40.659+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:40.658+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:07:40.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.137 seconds
+[2026-10-27T08:08:11.003+0000] {processor.py:157} INFO - Started process (PID=1230) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:08:11.004+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:08:11.009+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:11.008+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:08:11.043+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:08:11.085+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:11.085+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:08:11.141+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.149 seconds
+[2026-10-27T08:08:41.475+0000] {processor.py:157} INFO - Started process (PID=1245) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:08:41.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:08:41.479+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:41.478+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:08:41.501+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:08:41.532+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:41.530+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:08:41.601+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.129 seconds
+[2026-10-27T08:09:11.860+0000] {processor.py:157} INFO - Started process (PID=1260) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:09:11.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:09:11.863+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:11.863+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:09:11.886+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:09:11.920+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:11.919+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:09:11.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T08:09:42.228+0000] {processor.py:157} INFO - Started process (PID=1275) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:09:42.230+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:09:42.232+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:42.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:09:42.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:09:42.287+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:42.287+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:09:42.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.115 seconds
+[2026-10-27T08:10:12.617+0000] {processor.py:157} INFO - Started process (PID=1290) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:10:12.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:10:12.623+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:12.623+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:10:12.645+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:10:12.675+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:12.674+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:10:12.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.121 seconds
+[2026-10-27T08:10:43.016+0000] {processor.py:157} INFO - Started process (PID=1305) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:10:43.018+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:10:43.022+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:43.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:10:43.052+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:10:43.087+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:43.087+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:10:43.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.150 seconds
+[2026-10-27T08:11:13.419+0000] {processor.py:157} INFO - Started process (PID=1320) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:11:13.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:11:13.424+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:13.424+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:11:13.451+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:11:13.486+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:13.485+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:11:13.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T08:11:43.809+0000] {processor.py:157} INFO - Started process (PID=1335) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:11:43.810+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:11:43.813+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:43.813+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:11:43.838+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:11:43.871+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:43.870+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:11:43.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T08:12:14.203+0000] {processor.py:157} INFO - Started process (PID=1350) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:12:14.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:12:14.207+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:14.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:12:14.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:12:14.268+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:14.267+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:12:14.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.111 seconds
+[2026-10-27T08:12:44.565+0000] {processor.py:157} INFO - Started process (PID=1394) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:12:44.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:12:44.568+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:44.568+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:12:44.595+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:12:44.626+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:44.626+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:12:44.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T08:13:14.928+0000] {processor.py:157} INFO - Started process (PID=1417) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:13:14.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:13:14.931+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:13:14.931+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:13:14.957+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:13:14.989+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:13:14.988+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:13:15.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T08:13:45.303+0000] {processor.py:157} INFO - Started process (PID=1432) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:13:45.304+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:13:45.307+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:13:45.306+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:13:45.331+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:13:45.363+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:13:45.362+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:32:10.795+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:32:10.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:32:10.804+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:10.803+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:32:10.838+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:32:10.891+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:10.891+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:32:10.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.188 seconds
+[2026-10-27T08:32:41.398+0000] {processor.py:157} INFO - Started process (PID=194) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:32:41.400+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:32:41.404+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:41.404+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:32:41.438+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:32:41.482+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:41.481+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:32:41.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.151 seconds
+[2026-10-27T08:33:11.749+0000] {processor.py:157} INFO - Started process (PID=215) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:33:11.751+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:33:11.753+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:11.753+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:33:11.778+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:33:11.809+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:11.809+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:33:11.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.125 seconds
+[2026-10-27T08:33:43.395+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:33:43.396+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:33:43.398+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:43.398+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:33:43.421+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:33:43.448+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:43.447+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:33:43.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.108 seconds
+[2026-10-27T08:34:14.850+0000] {processor.py:157} INFO - Started process (PID=264) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:34:14.852+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:34:14.855+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:14.855+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:34:14.893+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:34:14.936+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:14.935+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:34:15.017+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.172 seconds
+[2026-10-27T08:34:46.251+0000] {processor.py:157} INFO - Started process (PID=279) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:34:46.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:34:46.254+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:46.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:34:46.279+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:34:46.310+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:46.309+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:34:46.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T08:35:16.694+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:35:16.695+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:35:16.698+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:16.697+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:35:16.726+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:35:16.758+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:16.758+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:35:16.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.135 seconds
+[2026-10-27T08:35:47.615+0000] {processor.py:157} INFO - Started process (PID=309) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:35:47.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:35:47.619+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:47.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:35:47.643+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:35:47.677+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:47.677+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:35:47.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.125 seconds
+[2026-10-27T08:36:19.253+0000] {processor.py:157} INFO - Started process (PID=324) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:36:19.254+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:36:19.257+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:19.257+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:36:19.282+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:36:19.315+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:19.314+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:36:19.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T08:36:49.857+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:36:49.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:36:49.861+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:49.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:36:49.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:36:49.916+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:49.915+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:36:49.971+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T08:37:21.426+0000] {processor.py:157} INFO - Started process (PID=354) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:37:21.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:37:21.429+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:21.428+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:37:21.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:37:21.489+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:21.488+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:37:21.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.115 seconds
+[2026-10-27T08:37:51.955+0000] {processor.py:157} INFO - Started process (PID=369) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:37:51.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:37:51.958+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:51.958+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:37:51.983+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:37:52.012+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:52.012+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:37:52.066+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.115 seconds
+[2026-10-27T08:38:23.516+0000] {processor.py:157} INFO - Started process (PID=384) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:38:23.517+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:38:23.520+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:23.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:38:23.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:38:23.593+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:23.592+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:38:23.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.137 seconds
+[2026-10-27T08:38:54.150+0000] {processor.py:157} INFO - Started process (PID=399) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:38:54.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:38:54.153+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:54.153+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:38:54.177+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:38:54.210+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:54.209+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:38:54.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.121 seconds
+[2026-10-27T08:39:25.525+0000] {processor.py:157} INFO - Started process (PID=414) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:39:25.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:39:25.528+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:25.528+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:39:25.550+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:39:25.576+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:25.576+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:39:25.641+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.118 seconds
+[2026-10-27T08:39:57.078+0000] {processor.py:157} INFO - Started process (PID=429) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:39:57.079+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:39:57.081+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:57.081+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:39:57.114+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:39:57.148+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:57.148+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:39:57.211+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.137 seconds
+[2026-10-27T08:40:27.673+0000] {processor.py:157} INFO - Started process (PID=444) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:40:27.674+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:40:27.676+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:27.675+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:40:27.700+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:40:27.734+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:27.733+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:40:27.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.122 seconds
+[2026-10-27T08:40:59.163+0000] {processor.py:157} INFO - Started process (PID=459) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:40:59.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:40:59.166+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:59.166+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:40:59.188+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:40:59.215+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:59.214+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:40:59.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.108 seconds
+[2026-10-27T08:41:29.703+0000] {processor.py:157} INFO - Started process (PID=474) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:41:29.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:41:29.706+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:41:29.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:41:29.726+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:41:29.753+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:41:29.752+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:41:29.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.097 seconds
+[2026-10-27T08:42:01.367+0000] {processor.py:157} INFO - Started process (PID=489) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:42:01.368+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:42:01.370+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:01.370+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:42:01.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:42:01.435+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:01.434+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:42:01.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.124 seconds
+[2026-10-27T08:42:32.941+0000] {processor.py:157} INFO - Started process (PID=504) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:42:32.942+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:42:32.944+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:32.944+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:42:32.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:42:32.997+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:32.996+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:42:33.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T08:43:03.477+0000] {processor.py:157} INFO - Started process (PID=522) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:43:03.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:43:03.480+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:03.480+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:43:03.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:43:03.527+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:03.527+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:43:03.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.096 seconds
+[2026-10-27T08:43:35.028+0000] {processor.py:157} INFO - Started process (PID=537) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:43:35.029+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:43:35.033+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:35.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:43:35.061+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:43:35.100+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:35.099+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:43:35.151+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.128 seconds
+[2026-10-27T08:44:05.826+0000] {processor.py:157} INFO - Started process (PID=552) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:44:05.828+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:44:05.830+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:05.830+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:44:05.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:44:05.897+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:05.897+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:44:05.948+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T08:44:37.531+0000] {processor.py:157} INFO - Started process (PID=567) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:44:37.532+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:44:37.534+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:37.534+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:44:37.556+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:44:37.585+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:37.584+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:44:37.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.104 seconds
+[2026-10-27T08:45:09.160+0000] {processor.py:157} INFO - Started process (PID=582) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:45:09.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:45:09.164+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:09.164+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:45:09.197+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:45:09.228+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:09.227+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:45:09.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T08:45:39.778+0000] {processor.py:157} INFO - Started process (PID=597) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:45:39.779+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:45:39.782+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:39.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:45:39.806+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:45:39.832+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:39.832+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:45:39.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.117 seconds
+[2026-10-27T08:46:11.693+0000] {processor.py:157} INFO - Started process (PID=612) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:46:11.694+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:46:11.696+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:11.695+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:46:11.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:46:11.742+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:11.741+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:46:11.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.104 seconds
+[2026-10-27T08:46:43.334+0000] {processor.py:157} INFO - Started process (PID=627) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:46:43.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:46:43.337+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:43.337+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:46:43.361+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:46:43.391+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:43.390+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:46:43.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.121 seconds
+[2026-10-27T08:47:14.253+0000] {processor.py:157} INFO - Started process (PID=642) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:47:14.254+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:47:14.257+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:14.256+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:47:14.279+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:47:14.305+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:14.305+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:47:14.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.102 seconds
+[2026-10-27T08:47:45.922+0000] {processor.py:157} INFO - Started process (PID=657) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:47:45.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:47:45.925+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:45.924+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:47:45.956+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:47:45.984+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:45.984+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:47:46.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.110 seconds
+[2026-10-27T08:48:16.802+0000] {processor.py:157} INFO - Started process (PID=672) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:48:16.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:48:16.804+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:16.804+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:48:16.826+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:48:16.850+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:16.850+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:48:16.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.097 seconds
+[2026-10-27T08:48:47.082+0000] {processor.py:157} INFO - Started process (PID=687) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:48:47.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:48:47.086+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:47.085+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:48:47.110+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:48:47.137+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:47.136+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:48:47.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.113 seconds
+[2026-10-27T08:49:18.961+0000] {processor.py:157} INFO - Started process (PID=702) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:49:18.962+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:49:18.964+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:49:18.964+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:49:18.988+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:49:19.016+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:49:19.016+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:49:19.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T08:49:49.837+0000] {processor.py:157} INFO - Started process (PID=717) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:49:49.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:49:49.842+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:49:49.842+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:49:49.869+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:49:49.899+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:49:49.899+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:49:49.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.117 seconds
+[2026-10-27T08:50:21.871+0000] {processor.py:157} INFO - Started process (PID=732) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:50:21.872+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:50:21.875+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:21.874+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:50:21.900+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:50:21.930+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:21.929+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:50:21.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T08:50:52.676+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:50:52.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:50:52.679+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:52.679+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:50:52.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:50:52.736+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:52.735+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:50:52.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.117 seconds
+[2026-10-27T08:51:24.614+0000] {processor.py:157} INFO - Started process (PID=767) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:51:24.615+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:51:24.618+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:24.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:51:24.643+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:51:24.675+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:24.674+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:51:24.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T08:51:55.517+0000] {processor.py:157} INFO - Started process (PID=782) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:51:55.517+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:51:55.519+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:55.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:51:55.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:51:55.565+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:55.564+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:51:55.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.099 seconds
+[2026-10-27T08:52:27.441+0000] {processor.py:157} INFO - Started process (PID=797) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:52:27.442+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:52:27.444+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:27.444+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:52:27.464+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:52:27.490+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:27.489+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:52:27.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.101 seconds
+[2026-10-27T08:52:58.460+0000] {processor.py:157} INFO - Started process (PID=812) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:52:58.461+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:52:58.464+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:58.463+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:52:58.486+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:52:58.515+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:58.515+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:52:58.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.128 seconds
+[2026-10-27T08:53:30.230+0000] {processor.py:157} INFO - Started process (PID=833) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:53:30.230+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:53:30.232+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:53:30.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:53:30.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:53:30.283+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:53:30.282+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:53:30.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.101 seconds
+[2026-10-27T08:54:02.143+0000] {processor.py:157} INFO - Started process (PID=848) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:54:02.144+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:54:02.147+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:02.147+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:54:02.170+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:54:02.198+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:02.197+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:54:02.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.106 seconds
+[2026-10-27T08:54:33.040+0000] {processor.py:157} INFO - Started process (PID=863) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:54:33.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:54:33.043+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:33.043+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:54:33.065+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:54:33.095+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:33.094+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:54:33.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.106 seconds
+[2026-10-27T08:55:04.967+0000] {processor.py:157} INFO - Started process (PID=878) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:55:04.968+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:55:04.972+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:04.972+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:55:04.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:55:05.017+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:05.016+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:55:05.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.099 seconds
+[2026-10-27T08:55:35.817+0000] {processor.py:157} INFO - Started process (PID=893) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:55:35.820+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:55:35.823+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:35.822+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:55:35.856+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:55:35.890+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:35.889+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:55:35.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.128 seconds
+[2026-10-27T08:56:07.754+0000] {processor.py:157} INFO - Started process (PID=908) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:56:07.755+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:56:07.757+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:07.757+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:56:07.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:56:07.812+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:07.812+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:56:07.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T08:56:38.610+0000] {processor.py:157} INFO - Started process (PID=923) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:56:38.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:56:38.617+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:38.616+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:56:38.639+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:56:38.666+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:38.665+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:56:38.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T08:57:10.498+0000] {processor.py:157} INFO - Started process (PID=938) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:57:10.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:57:10.502+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:10.502+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:57:10.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:57:10.565+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:10.564+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:57:10.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.124 seconds
+[2026-10-27T08:57:42.451+0000] {processor.py:157} INFO - Started process (PID=953) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:57:42.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:57:42.455+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:42.454+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:57:42.483+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:57:42.518+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:42.517+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:57:42.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.114 seconds
+[2026-10-27T08:58:13.328+0000] {processor.py:157} INFO - Started process (PID=968) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:58:13.331+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:58:13.333+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:13.333+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:58:13.355+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:58:13.379+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:13.378+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:58:13.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.137 seconds
+[2026-10-27T08:58:43.514+0000] {processor.py:157} INFO - Started process (PID=983) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:58:43.516+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:58:43.518+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:43.518+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:58:43.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:58:43.565+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:43.564+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:58:44.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.098 seconds
+[2026-10-27T08:59:16.287+0000] {processor.py:157} INFO - Started process (PID=998) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:59:16.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:59:16.291+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:16.290+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:59:16.312+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:59:16.347+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:16.346+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:59:16.414+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.131 seconds
+[2026-10-27T08:59:47.978+0000] {processor.py:157} INFO - Started process (PID=1013) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:59:47.979+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T08:59:47.981+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:47.981+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:59:48.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T08:59:48.037+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:48.037+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:59:48.092+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.118 seconds
+[2026-10-27T09:00:19.018+0000] {processor.py:157} INFO - Started process (PID=1028) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:00:19.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:00:19.021+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:19.021+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:00:19.045+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:00:19.075+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:19.074+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:00:19.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.121 seconds
+[2026-10-27T09:00:50.973+0000] {processor.py:157} INFO - Started process (PID=1043) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:00:50.975+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:00:50.977+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:50.977+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:00:50.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:00:51.028+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:51.028+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:00:51.081+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.112 seconds
+[2026-10-27T09:01:22.809+0000] {processor.py:157} INFO - Started process (PID=1058) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:01:22.811+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:01:22.814+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:22.814+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:01:22.854+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:01:22.895+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:22.894+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:01:22.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.167 seconds
+[2026-10-27T09:01:53.672+0000] {processor.py:157} INFO - Started process (PID=1073) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:01:53.673+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:01:53.676+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:53.675+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:01:53.697+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:01:53.729+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:53.728+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:01:53.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:02:25.602+0000] {processor.py:157} INFO - Started process (PID=1088) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:02:25.604+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:02:25.607+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:25.607+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:02:25.653+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:02:25.683+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:25.682+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:02:25.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.138 seconds
+[2026-10-27T09:02:56.563+0000] {processor.py:157} INFO - Started process (PID=1103) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:02:56.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:02:56.567+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:56.566+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:02:56.591+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:02:56.619+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:56.619+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:02:56.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.113 seconds
+[2026-10-27T09:03:28.426+0000] {processor.py:157} INFO - Started process (PID=1118) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:03:28.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:03:28.430+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:03:28.430+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:03:28.454+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:03:28.481+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:03:28.481+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:03:28.528+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.106 seconds
+[2026-10-27T09:04:00.300+0000] {processor.py:157} INFO - Started process (PID=1133) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:04:00.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:04:00.305+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:00.305+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:04:00.333+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:04:00.368+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:00.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:04:00.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.134 seconds
+[2026-10-27T09:04:31.251+0000] {processor.py:157} INFO - Started process (PID=1148) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:04:31.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:04:31.254+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:31.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:04:31.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:04:31.304+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:31.304+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:04:31.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.107 seconds
+[2026-10-27T09:05:03.178+0000] {processor.py:157} INFO - Started process (PID=1163) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:05:03.179+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:05:03.181+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:03.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:05:03.203+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:05:03.230+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:03.229+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:05:03.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T09:05:34.115+0000] {processor.py:157} INFO - Started process (PID=1178) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:05:34.116+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:05:34.119+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:34.119+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:05:34.145+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:05:34.173+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:34.172+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:05:34.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.110 seconds
+[2026-10-27T09:06:05.965+0000] {processor.py:157} INFO - Started process (PID=1193) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:06:05.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:06:05.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:05.969+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:06:05.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:06:06.023+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:06.022+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:06:06.082+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.121 seconds
+[2026-10-27T09:06:37.860+0000] {processor.py:157} INFO - Started process (PID=1208) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:06:37.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:06:37.864+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:37.864+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:06:37.894+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:06:37.940+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:37.939+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:06:37.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.140 seconds
+[2026-10-27T09:07:08.877+0000] {processor.py:157} INFO - Started process (PID=1223) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:07:08.879+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:07:08.881+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:08.881+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:07:08.907+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:07:08.942+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:08.941+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:07:09.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T09:07:40.803+0000] {processor.py:157} INFO - Started process (PID=1238) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:07:40.805+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:07:40.809+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:40.808+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:07:40.840+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:07:40.878+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:40.878+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:07:40.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.136 seconds
+[2026-10-27T09:08:11.793+0000] {processor.py:157} INFO - Started process (PID=1253) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:08:11.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:08:11.799+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:11.799+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:08:11.828+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:08:11.858+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:11.857+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:08:11.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T09:08:43.705+0000] {processor.py:157} INFO - Started process (PID=1268) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:08:43.706+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:08:43.708+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:43.708+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:08:43.733+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:08:43.766+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:43.765+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:08:43.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.115 seconds
+[2026-10-27T09:09:15.653+0000] {processor.py:157} INFO - Started process (PID=1283) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:09:15.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:09:15.656+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:15.656+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:09:15.679+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:09:15.706+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:15.706+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:09:15.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T09:09:46.501+0000] {processor.py:157} INFO - Started process (PID=1298) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:09:46.502+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:09:46.505+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:46.504+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:09:46.528+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:09:46.555+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:46.555+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:09:46.610+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.113 seconds
+[2026-10-27T09:10:18.381+0000] {processor.py:157} INFO - Started process (PID=1313) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:10:18.382+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:10:18.384+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:18.383+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:10:18.404+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:10:18.431+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:18.431+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:10:18.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T09:10:50.291+0000] {processor.py:157} INFO - Started process (PID=1328) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:10:50.292+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:10:50.295+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:50.295+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:10:50.318+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:10:50.347+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:50.346+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:10:50.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:11:21.360+0000] {processor.py:157} INFO - Started process (PID=1348) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:11:21.361+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:11:21.363+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:21.363+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:11:21.386+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:11:21.412+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:21.412+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:11:21.458+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.102 seconds
+[2026-10-27T09:11:53.245+0000] {processor.py:157} INFO - Started process (PID=1363) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:11:53.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:11:53.249+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:53.249+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:11:53.273+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:11:53.299+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:53.298+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:11:53.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.104 seconds
+[2026-10-27T09:12:24.178+0000] {processor.py:157} INFO - Started process (PID=1378) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:12:24.179+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:12:24.182+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:24.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:12:24.205+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:12:24.232+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:24.231+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:12:24.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T09:12:56.120+0000] {processor.py:157} INFO - Started process (PID=1393) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:12:56.121+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:12:56.125+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:56.125+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:12:56.163+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:12:56.193+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:56.193+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:12:56.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.131 seconds
+[2026-10-27T09:13:27.154+0000] {processor.py:157} INFO - Started process (PID=1408) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:13:27.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:13:27.156+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:27.156+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:13:27.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:13:27.211+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:27.210+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:13:27.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.110 seconds
+[2026-10-27T09:13:59.074+0000] {processor.py:157} INFO - Started process (PID=1423) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:13:59.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:13:59.077+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:59.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:13:59.099+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:13:59.126+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:59.125+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:13:59.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.104 seconds
+[2026-10-27T09:14:29.239+0000] {processor.py:157} INFO - Started process (PID=1438) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:14:29.241+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:14:29.245+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:14:29.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:14:30.189+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:14:30.223+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:14:30.223+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:14:30.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.134 seconds
+[2026-10-27T09:15:02.096+0000] {processor.py:157} INFO - Started process (PID=1453) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:15:02.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:15:02.101+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:02.101+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:15:02.128+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:15:02.157+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:02.157+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:15:02.216+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T09:15:34.004+0000] {processor.py:157} INFO - Started process (PID=1468) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:15:34.005+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:15:34.008+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:34.007+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:15:34.035+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:15:34.066+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:34.066+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:15:34.125+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.126 seconds
+[2026-10-27T09:16:04.990+0000] {processor.py:157} INFO - Started process (PID=1483) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:16:04.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:16:04.993+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:04.993+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:16:05.019+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:16:05.051+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:05.051+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:16:05.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.124 seconds
+[2026-10-27T09:16:36.904+0000] {processor.py:157} INFO - Started process (PID=1498) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:16:36.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:16:36.907+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:36.907+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:16:36.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:16:36.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:36.969+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:16:37.023+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T09:17:08.856+0000] {processor.py:157} INFO - Started process (PID=1513) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:17:08.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:17:08.859+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:08.859+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:17:08.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:17:08.914+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:08.914+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:17:08.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.113 seconds
+[2026-10-27T09:17:39.777+0000] {processor.py:157} INFO - Started process (PID=1528) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:17:39.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:17:39.781+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:39.780+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:17:39.804+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:17:39.830+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:39.830+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:17:39.884+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.111 seconds
+[2026-10-27T09:18:11.708+0000] {processor.py:157} INFO - Started process (PID=1543) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:18:11.709+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:18:11.711+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:11.710+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:18:11.734+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:18:11.761+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:11.760+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:18:11.814+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.110 seconds
+[2026-10-27T09:18:43.584+0000] {processor.py:157} INFO - Started process (PID=1558) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:18:43.585+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:18:43.587+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:43.587+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:18:43.609+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:18:43.634+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:43.634+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:18:43.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.097 seconds
+[2026-10-27T09:19:14.508+0000] {processor.py:157} INFO - Started process (PID=1573) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:19:14.509+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:19:14.511+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:14.511+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:19:14.535+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:19:14.563+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:14.562+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:19:14.615+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.112 seconds
+[2026-10-27T09:19:46.397+0000] {processor.py:157} INFO - Started process (PID=1588) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:19:46.398+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:19:46.401+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:46.401+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:19:46.440+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:19:46.480+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:46.479+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:19:46.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.140 seconds
+[2026-10-27T09:20:17.432+0000] {processor.py:157} INFO - Started process (PID=1603) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:20:17.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:20:17.436+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:17.435+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:20:17.459+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:20:17.487+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:17.486+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:20:17.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:20:49.336+0000] {processor.py:157} INFO - Started process (PID=1618) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:20:49.337+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:20:49.339+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:49.339+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:20:49.362+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:20:49.390+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:49.389+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:20:49.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T09:21:21.276+0000] {processor.py:157} INFO - Started process (PID=1633) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:21:21.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:21:21.281+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:21.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:21:21.305+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:21:21.332+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:21.331+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:21:21.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T09:21:52.238+0000] {processor.py:157} INFO - Started process (PID=1657) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:21:52.239+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:21:52.243+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:52.242+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:21:52.270+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:21:52.302+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:52.301+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:21:52.371+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.136 seconds
+[2026-10-27T09:22:09.653+0000] {processor.py:157} INFO - Started process (PID=1677) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:22:09.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:22:09.657+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:09.656+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:22:09.696+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:22:09.723+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:09.723+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:22:09.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.127 seconds
+[2026-10-27T09:22:40.685+0000] {processor.py:157} INFO - Started process (PID=1692) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:22:40.686+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:22:40.689+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:40.688+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:22:40.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:22:40.737+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:40.736+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:22:40.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.094 seconds
+[2026-10-27T09:23:11.613+0000] {processor.py:157} INFO - Started process (PID=1707) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:23:11.614+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:23:11.616+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:11.616+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:23:11.638+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:23:11.664+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:11.663+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:23:11.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.100 seconds
+[2026-10-27T09:23:42.646+0000] {processor.py:157} INFO - Started process (PID=1722) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:23:42.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:23:42.650+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:42.649+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:23:42.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:23:42.698+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:42.697+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:23:42.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.105 seconds
+[2026-10-27T09:24:13.607+0000] {processor.py:157} INFO - Started process (PID=1737) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:24:13.608+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:24:13.610+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:24:13.610+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:24:13.634+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:24:13.661+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:24:13.660+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:24:13.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.103 seconds
+[2026-10-27T09:24:44.633+0000] {processor.py:157} INFO - Started process (PID=1752) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:24:44.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:24:44.635+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:24:44.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:24:44.659+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:24:44.686+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:24:44.685+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:24:44.732+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.102 seconds
+[2026-10-27T09:25:15.597+0000] {processor.py:157} INFO - Started process (PID=1767) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:25:15.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:25:15.600+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:15.600+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:25:15.626+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:25:15.652+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:15.652+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:25:15.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.107 seconds
+[2026-10-27T09:25:46.636+0000] {processor.py:157} INFO - Started process (PID=1782) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:25:46.637+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:25:46.640+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:46.640+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:25:46.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:25:46.692+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:46.692+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:25:46.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.106 seconds
+[2026-10-27T09:26:17.644+0000] {processor.py:157} INFO - Started process (PID=1797) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:26:17.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:26:17.646+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:17.646+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:26:17.668+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:26:17.701+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:17.700+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:26:17.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.108 seconds
+[2026-10-27T09:26:48.710+0000] {processor.py:157} INFO - Started process (PID=1812) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:26:48.711+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:26:48.714+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:48.714+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:26:48.743+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:26:48.773+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:48.772+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:26:48.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.131 seconds
+[2026-10-27T09:27:19.699+0000] {processor.py:157} INFO - Started process (PID=1827) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:27:19.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:27:19.704+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:19.703+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:27:19.743+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:27:19.781+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:19.780+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:27:19.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.151 seconds
+[2026-10-27T09:27:50.057+0000] {processor.py:157} INFO - Started process (PID=1842) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:27:50.058+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:27:50.061+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:50.060+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:27:50.084+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:27:50.112+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:50.111+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:27:50.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.106 seconds
+[2026-10-27T09:28:21.068+0000] {processor.py:157} INFO - Started process (PID=1866) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:28:21.069+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:28:21.071+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:21.071+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:28:21.096+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:28:21.127+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:21.127+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:28:21.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.120 seconds
+[2026-10-27T09:28:52.129+0000] {processor.py:157} INFO - Started process (PID=1881) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:28:52.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:28:52.132+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:52.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:28:52.156+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:28:52.185+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:52.184+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:28:52.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.108 seconds
+[2026-10-27T09:29:22.282+0000] {processor.py:157} INFO - Started process (PID=1896) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:29:22.283+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:29:22.285+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:22.285+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:29:22.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:29:22.336+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:22.336+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:29:22.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:29:53.414+0000] {processor.py:157} INFO - Started process (PID=1911) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:29:53.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:29:53.419+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:53.418+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:29:53.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:29:53.491+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:53.491+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:29:53.552+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.141 seconds
+[2026-10-27T09:30:24.425+0000] {processor.py:157} INFO - Started process (PID=1926) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:30:24.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:30:24.430+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:24.430+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:30:24.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:30:24.492+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:24.491+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:30:24.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T09:30:55.496+0000] {processor.py:157} INFO - Started process (PID=1950) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:30:55.497+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:30:55.499+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:55.499+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:30:55.527+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:30:55.557+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:55.556+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:30:55.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.118 seconds
+[2026-10-27T09:31:26.468+0000] {processor.py:157} INFO - Started process (PID=1965) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:31:26.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:31:26.472+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:26.472+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:31:26.496+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:31:26.525+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:26.524+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:31:26.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.122 seconds
+[2026-10-27T09:31:57.551+0000] {processor.py:157} INFO - Started process (PID=1980) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:31:57.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:31:57.554+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:57.554+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:31:57.579+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:31:57.604+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:57.604+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:31:57.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.104 seconds
+[2026-10-27T09:32:27.807+0000] {processor.py:157} INFO - Started process (PID=1995) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:32:27.808+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:32:27.810+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:27.809+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:32:27.834+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:32:27.859+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:27.858+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:32:27.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.101 seconds
+[2026-10-27T09:32:58.784+0000] {processor.py:157} INFO - Started process (PID=2010) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:32:58.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:32:58.788+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:58.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:32:58.810+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:32:58.836+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:58.836+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:32:58.881+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.100 seconds
+[2026-10-27T09:33:29.707+0000] {processor.py:157} INFO - Started process (PID=2025) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:33:29.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:33:29.710+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:33:29.710+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:33:29.730+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:33:29.754+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:33:29.754+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:33:29.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.101 seconds
+[2026-10-27T09:34:00.798+0000] {processor.py:157} INFO - Started process (PID=2040) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:34:00.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:34:00.804+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:34:00.803+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:34:00.867+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:34:00.906+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:34:00.905+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:34:00.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.174 seconds
+[2026-10-27T09:34:31.653+0000] {processor.py:157} INFO - Started process (PID=2055) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:34:31.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:34:31.656+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:34:31.655+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:34:31.676+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:34:31.702+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:34:31.702+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:34:31.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:35:02.614+0000] {processor.py:157} INFO - Started process (PID=2060) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:35:02.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:35:02.619+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:02.619+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:35:02.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:35:02.676+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:02.675+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:35:02.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.143 seconds
+[2026-10-27T09:35:33.817+0000] {processor.py:157} INFO - Started process (PID=2075) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:35:33.818+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:35:33.820+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:33.820+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:35:33.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:35:33.872+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:33.871+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:35:33.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.100 seconds
+[2026-10-27T09:36:05.831+0000] {processor.py:157} INFO - Started process (PID=2102) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:36:05.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:36:05.835+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:05.835+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:36:05.857+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:36:05.884+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:05.884+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:36:05.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.115 seconds
+[2026-10-27T09:36:36.010+0000] {processor.py:157} INFO - Started process (PID=2117) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:36:36.012+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:36:36.014+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:36.014+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:36:36.039+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:36:36.976+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:36.976+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:36:37.032+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T09:37:09.125+0000] {processor.py:157} INFO - Started process (PID=2132) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:37:09.126+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:37:09.133+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:09.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:37:09.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:37:09.201+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:09.200+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:37:09.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.132 seconds
+[2026-10-27T09:37:40.272+0000] {processor.py:157} INFO - Started process (PID=2147) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:37:40.273+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:37:40.276+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:40.275+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:37:40.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:37:40.334+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:40.334+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:37:40.387+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.119 seconds
+[2026-10-27T09:38:12.334+0000] {processor.py:157} INFO - Started process (PID=2162) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:38:12.336+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:38:12.338+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:12.338+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:38:12.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:38:12.394+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:12.393+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:38:12.443+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.112 seconds
+[2026-10-27T09:38:43.510+0000] {processor.py:157} INFO - Started process (PID=2177) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:38:43.511+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:38:43.513+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:43.513+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:38:43.534+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:38:43.561+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:43.561+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:38:43.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.106 seconds
+[2026-10-27T09:39:15.542+0000] {processor.py:157} INFO - Started process (PID=2217) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:39:15.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:39:15.547+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:15.546+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:39:15.571+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:39:15.601+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:15.601+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:39:15.647+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.111 seconds
+[2026-10-27T09:39:45.766+0000] {processor.py:157} INFO - Started process (PID=2257) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:39:45.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:39:45.772+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:45.772+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:39:45.805+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:39:45.842+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:45.841+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:39:46.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.139 seconds
+[2026-10-27T09:40:18.723+0000] {processor.py:157} INFO - Started process (PID=2272) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:40:18.724+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:40:18.729+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:18.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:40:18.756+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:40:18.797+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:18.795+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:40:18.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.144 seconds
+[2026-10-27T09:40:50.757+0000] {processor.py:157} INFO - Started process (PID=2287) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:40:50.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:40:50.761+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:50.761+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:40:50.786+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:40:50.817+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:50.817+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:40:50.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.113 seconds
+[2026-10-27T09:41:21.721+0000] {processor.py:157} INFO - Started process (PID=2302) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:41:21.723+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:41:21.725+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:21.725+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:41:21.749+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:41:21.776+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:21.775+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:41:21.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:41:53.732+0000] {processor.py:157} INFO - Started process (PID=2317) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:41:53.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:41:53.737+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:53.737+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:41:53.761+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:41:53.790+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:53.789+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:41:53.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.121 seconds
+[2026-10-27T09:42:23.968+0000] {processor.py:157} INFO - Started process (PID=2332) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:42:23.969+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:42:23.972+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:23.971+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:42:23.995+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:42:24.025+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:24.024+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:42:24.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:42:56.843+0000] {processor.py:157} INFO - Started process (PID=2347) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:42:56.844+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:42:56.848+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:56.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:42:56.873+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:42:56.901+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:56.901+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:42:56.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.110 seconds
+[2026-10-27T09:43:28.830+0000] {processor.py:157} INFO - Started process (PID=2362) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:43:28.831+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:43:28.834+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:43:28.834+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:43:28.859+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:43:28.890+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:43:28.890+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:43:28.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.115 seconds
+[2026-10-27T09:43:59.966+0000] {processor.py:157} INFO - Started process (PID=2377) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:43:59.968+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:43:59.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:43:59.970+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:44:00.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:44:00.038+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:00.037+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:44:00.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.134 seconds
+[2026-10-27T09:44:32.038+0000] {processor.py:157} INFO - Started process (PID=2392) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:44:32.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:44:32.042+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:32.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:44:32.064+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:44:32.090+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:32.089+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:44:32.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.109 seconds
+[2026-10-27T09:45:03.161+0000] {processor.py:157} INFO - Started process (PID=2407) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:45:03.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:45:03.164+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:03.164+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:45:03.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:45:03.243+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:03.243+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:45:03.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.146 seconds
+[2026-10-27T09:45:35.227+0000] {processor.py:157} INFO - Started process (PID=2422) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:45:35.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:45:35.231+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:35.231+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:45:35.259+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:45:35.293+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:35.292+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:45:35.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.123 seconds
+[2026-10-27T09:46:05.467+0000] {processor.py:157} INFO - Started process (PID=2437) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:46:05.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:46:05.471+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:05.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:46:05.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:46:06.432+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:06.432+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:46:06.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.116 seconds
+[2026-10-27T09:46:38.425+0000] {processor.py:157} INFO - Started process (PID=2464) to work on /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:46:38.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hard_delete_sync.py for tasks to queue
+[2026-10-27T09:46:38.432+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:38.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:46:38.480+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hard_delete_sync']) retrieved from /opt/airflow/dags/hard_delete_sync.py
+[2026-10-27T09:46:38.513+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:38.513+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:46:38.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hard_delete_sync.py took 0.141 seconds

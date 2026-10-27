@@ -1,0 +1,176 @@
+[2026-10-27T09:21:40.056+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:21:40.068+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:21:40.069+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:21:40.086+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): cleanup_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:21:40.095+0000] {standard_task_runner.py:57} INFO - Started process 1655 to run task
+[2026-10-27T09:21:40.099+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'cleanup_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp7596ixmv']
+[2026-10-27T09:21:40.104+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask cleanup_historical
+[2026-10-27T09:21:40.176+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:21:40.292+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='cleanup_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:21:40.304+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T09:21:40.311+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T09:21:40.312+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:21:40.314+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T09:21:40.314+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:21:40.315+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T09:21:40.317+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:21:40.319+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:21:40.320+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:21:40.321+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-10-27T09:21:40.321+0000] {logging_mixin.py:154} INFO - Error dropping staging table: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-10-27T09:21:40.321+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:21:40.334+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=cleanup_historical, execution_date=20160101T000000, start_date=20261027T092140, end_date=20261027T092140
+[2026-10-27T09:21:40.393+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:21:40.416+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:27:58.335+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:27:58.348+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:27:58.349+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:27:58.382+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): cleanup_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:27:58.392+0000] {standard_task_runner.py:57} INFO - Started process 1855 to run task
+[2026-10-27T09:27:58.398+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'cleanup_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpuohxsyq5']
+[2026-10-27T09:27:58.410+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask cleanup_historical
+[2026-10-27T09:27:58.524+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:27:58.682+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='cleanup_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:27:58.699+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T09:27:58.709+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T09:27:58.709+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:27:58.711+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T09:27:58.711+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:27:58.712+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T09:27:58.716+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:27:58.718+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:27:58.720+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:27:58.721+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-10-27T09:27:58.722+0000] {logging_mixin.py:154} INFO - Error dropping staging table: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-10-27T09:27:58.723+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:27:58.738+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=cleanup_historical, execution_date=20160101T000000, start_date=20261027T092758, end_date=20261027T092758
+[2026-10-27T09:27:58.771+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:27:58.793+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:30:40.820+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:30:40.830+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:30:40.830+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:30:40.848+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): cleanup_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:30:40.855+0000] {standard_task_runner.py:57} INFO - Started process 1938 to run task
+[2026-10-27T09:30:40.858+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'cleanup_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpp0pvbwoc']
+[2026-10-27T09:30:40.863+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask cleanup_historical
+[2026-10-27T09:30:40.947+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:30:41.059+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='cleanup_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:30:41.071+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T09:30:41.080+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T09:30:41.080+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:30:41.082+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T09:30:41.083+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:30:41.083+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T09:30:41.087+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:30:41.088+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:30:41.090+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:30:41.091+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-10-27T09:30:41.092+0000] {logging_mixin.py:154} INFO - Error dropping staging table: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-10-27T09:30:41.092+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:30:41.104+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=cleanup_historical, execution_date=20160101T000000, start_date=20261027T093040, end_date=20261027T093041
+[2026-10-27T09:30:41.152+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:30:41.173+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:39:45.676+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:39:45.684+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:39:45.685+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:39:45.700+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): cleanup_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:39:45.707+0000] {standard_task_runner.py:57} INFO - Started process 2256 to run task
+[2026-10-27T09:39:45.711+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'cleanup_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpu97ybs9f']
+[2026-10-27T09:39:45.715+0000] {standard_task_runner.py:85} INFO - Job 31: Subtask cleanup_historical
+[2026-10-27T09:39:45.799+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.cleanup_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:39:46.829+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='cleanup_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:39:46.842+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T09:39:46.849+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T09:39:46.849+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:39:46.851+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T09:39:46.852+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:39:46.853+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T09:39:46.855+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:39:46.857+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:39:46.859+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:39:46.859+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-10-27T09:39:46.860+0000] {logging_mixin.py:154} INFO - Error dropping staging table: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-10-27T09:39:46.860+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:39:46.872+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=cleanup_historical, execution_date=20160101T000000, start_date=20261027T093945, end_date=20261027T093946
+[2026-10-27T09:39:46.909+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:39:46.930+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

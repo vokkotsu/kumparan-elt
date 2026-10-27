@@ -1,0 +1,1371 @@
+[2026-10-27T07:33:14.292+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:33:14.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:33:14.296+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.295+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:33:14.336+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:33:14.461+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.461+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-10-27T07:33:14.475+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.475+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-10-27T07:33:14.485+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.485+0000] {manager.py:499} INFO - Created Permission View: %s
+[2026-10-27T07:33:14.486+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.486+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:33:14.499+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.498+0000] {dag.py:2963} INFO - Creating ORM DAG for hourly_articles_elt
+[2026-10-27T07:33:14.511+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:14.511+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:33:14.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.248 seconds
+[2026-10-27T07:33:44.630+0000] {processor.py:157} INFO - Started process (PID=202) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:33:44.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:33:44.633+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:44.632+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:33:44.654+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:33:44.680+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:44.680+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:33:44.704+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:33:44.703+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:33:44.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.101 seconds
+[2026-10-27T07:34:15.021+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:34:15.022+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:34:15.024+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:15.024+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:34:15.051+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:34:15.081+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:15.080+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:34:15.111+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:15.110+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:34:15.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.124 seconds
+[2026-10-27T07:34:45.391+0000] {processor.py:157} INFO - Started process (PID=232) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:34:45.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:34:45.395+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:45.395+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:34:45.417+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:34:45.444+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:45.444+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:34:45.469+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:34:45.469+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:34:45.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T07:35:15.764+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:35:15.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:35:15.767+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:15.766+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:35:15.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:35:15.816+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:15.815+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:35:15.842+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:15.842+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:35:15.866+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T07:35:46.127+0000] {processor.py:157} INFO - Started process (PID=262) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:35:46.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:35:46.130+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:46.130+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:35:46.152+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:35:46.180+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:46.179+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:35:46.206+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:35:46.206+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:35:46.231+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T07:36:16.531+0000] {processor.py:157} INFO - Started process (PID=277) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:36:16.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:36:16.535+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:16.534+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:36:16.558+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:36:16.586+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:16.586+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:36:16.627+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:16.627+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:36:16.662+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.134 seconds
+[2026-10-27T07:36:46.903+0000] {processor.py:157} INFO - Started process (PID=292) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:36:46.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:36:46.907+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:46.906+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:36:46.930+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:36:46.956+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:46.956+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:36:46.981+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:36:46.981+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:36:47.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T07:37:17.309+0000] {processor.py:157} INFO - Started process (PID=307) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:37:17.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:37:17.313+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:17.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:37:17.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:37:17.367+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:17.366+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:37:17.391+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:17.390+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:37:17.412+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T07:37:47.713+0000] {processor.py:157} INFO - Started process (PID=322) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:37:47.714+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:37:47.716+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:47.716+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:37:47.738+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:37:47.764+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:47.763+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:37:47.791+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:37:47.791+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:37:47.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T07:38:18.186+0000] {processor.py:157} INFO - Started process (PID=337) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:38:18.187+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:38:18.190+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:18.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:38:18.212+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:38:18.227+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:18.226+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:38:18.252+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:18.252+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:38:18.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.094 seconds
+[2026-10-27T07:38:48.577+0000] {processor.py:157} INFO - Started process (PID=352) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:38:48.578+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:38:48.580+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:48.580+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:38:48.603+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:38:48.631+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:48.630+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:38:48.657+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:38:48.657+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:38:48.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T07:39:18.958+0000] {processor.py:157} INFO - Started process (PID=367) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:39:18.960+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:39:18.962+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:18.961+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:39:18.984+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:39:19.016+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:19.015+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:39:19.054+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:19.054+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:39:19.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.139 seconds
+[2026-10-27T07:39:49.313+0000] {processor.py:157} INFO - Started process (PID=382) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:39:49.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:39:49.316+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:49.316+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:39:49.337+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:39:49.360+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:49.359+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:39:49.381+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:39:49.381+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:39:49.402+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.092 seconds
+[2026-10-27T07:40:19.688+0000] {processor.py:157} INFO - Started process (PID=397) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:40:19.689+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:40:19.691+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:19.691+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:40:19.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:40:19.734+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:19.734+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:40:19.755+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:19.755+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:40:19.775+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.089 seconds
+[2026-10-27T07:40:50.043+0000] {processor.py:157} INFO - Started process (PID=412) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:40:50.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:40:50.045+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:50.045+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:40:50.067+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:40:50.098+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:50.098+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:40:50.121+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:40:50.121+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:40:50.142+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds
+[2026-10-27T07:41:20.420+0000] {processor.py:157} INFO - Started process (PID=427) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:41:20.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:41:20.423+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:20.423+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:41:20.443+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:41:20.466+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:20.466+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:41:20.489+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:20.489+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:41:20.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.094 seconds
+[2026-10-27T07:41:50.810+0000] {processor.py:157} INFO - Started process (PID=442) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:41:50.811+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:41:50.812+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:50.812+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:41:50.836+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:41:50.863+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:50.862+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:41:50.888+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:41:50.888+0000] {dag.py:3722} INFO - Setting next_dagrun for hourly_articles_elt to 2026-10-27T06:00:00+00:00, run_after=2026-10-27T07:00:00+00:00
+[2026-10-27T07:41:50.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T07:42:21.171+0000] {processor.py:157} INFO - Started process (PID=466) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:42:21.172+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:42:21.175+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:21.174+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:42:21.196+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:42:21.221+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:21.221+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:42:21.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.095 seconds
+[2026-10-27T07:42:51.547+0000] {processor.py:157} INFO - Started process (PID=481) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:42:51.548+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:42:51.550+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:51.549+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:42:51.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:42:51.600+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:42:51.599+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:42:51.650+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T07:43:21.967+0000] {processor.py:157} INFO - Started process (PID=496) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:43:21.968+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:43:21.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:21.969+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:43:21.990+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:43:22.014+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:22.013+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:43:22.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.090 seconds
+[2026-10-27T07:43:52.359+0000] {processor.py:157} INFO - Started process (PID=511) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:43:52.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:43:52.362+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:52.362+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:43:52.385+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:43:52.411+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:43:52.410+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:43:52.459+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds
+[2026-10-27T07:44:22.736+0000] {processor.py:157} INFO - Started process (PID=526) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:44:22.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:44:22.739+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:22.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:44:22.762+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:44:22.789+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:22.789+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:44:22.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T07:44:53.139+0000] {processor.py:157} INFO - Started process (PID=541) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:44:53.140+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:44:53.142+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:53.141+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:44:53.165+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:44:53.189+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:44:53.189+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:44:53.231+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.096 seconds
+[2026-10-27T07:45:23.526+0000] {processor.py:157} INFO - Started process (PID=556) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:45:23.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:45:23.528+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:23.528+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:45:23.564+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:45:23.594+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:23.593+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:45:23.645+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.123 seconds
+[2026-10-27T07:45:53.897+0000] {processor.py:157} INFO - Started process (PID=571) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:45:53.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:45:53.900+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:53.899+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:45:53.923+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:45:53.954+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:45:53.953+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:45:53.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.100 seconds
+[2026-10-27T07:46:24.318+0000] {processor.py:157} INFO - Started process (PID=586) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:46:24.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:46:24.321+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:24.321+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:46:24.346+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:46:24.376+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:24.376+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:46:24.428+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.114 seconds
+[2026-10-27T07:46:54.718+0000] {processor.py:157} INFO - Started process (PID=601) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:46:54.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:46:54.721+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:54.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:46:54.744+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:46:54.769+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:46:54.768+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:46:54.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.095 seconds
+[2026-10-27T07:47:25.118+0000] {processor.py:157} INFO - Started process (PID=616) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:47:25.120+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:47:25.122+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:25.122+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:47:25.146+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:47:25.176+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:25.174+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:47:25.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.119 seconds
+[2026-10-27T07:47:55.492+0000] {processor.py:157} INFO - Started process (PID=631) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:47:55.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:47:55.495+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:55.494+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:47:55.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:47:55.541+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:47:55.541+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:47:55.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.096 seconds
+[2026-10-27T07:48:25.859+0000] {processor.py:157} INFO - Started process (PID=646) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:48:25.860+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:48:25.862+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:25.862+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:48:25.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:48:25.921+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:25.921+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:48:25.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.116 seconds
+[2026-10-27T07:48:56.343+0000] {processor.py:157} INFO - Started process (PID=659) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:48:56.344+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:48:56.346+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:56.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:48:56.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:48:56.397+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:48:56.397+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:48:56.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.146 seconds
+[2026-10-27T07:49:26.742+0000] {processor.py:157} INFO - Started process (PID=676) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:49:26.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:49:26.746+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:26.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:49:26.774+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:49:26.801+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:26.800+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:49:26.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T07:49:57.167+0000] {processor.py:157} INFO - Started process (PID=691) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:49:57.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:49:57.172+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:57.171+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:49:57.196+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:49:57.224+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:49:57.223+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:49:57.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T07:50:27.537+0000] {processor.py:157} INFO - Started process (PID=706) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:50:27.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:50:27.540+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:27.540+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:50:27.561+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:50:27.585+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:27.584+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:50:27.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.101 seconds
+[2026-10-27T07:50:57.898+0000] {processor.py:157} INFO - Started process (PID=721) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:50:57.899+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:50:57.901+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:57.900+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:50:57.925+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:50:57.954+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:50:57.954+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:50:58.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T07:51:28.248+0000] {processor.py:157} INFO - Started process (PID=736) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:51:28.249+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:51:28.251+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:28.251+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:51:28.271+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:51:28.299+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:28.298+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:51:28.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.122 seconds
+[2026-10-27T07:51:58.606+0000] {processor.py:157} INFO - Started process (PID=751) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:51:58.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:51:58.609+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:58.609+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:51:58.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:51:58.660+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:51:58.659+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:51:58.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T07:52:28.977+0000] {processor.py:157} INFO - Started process (PID=772) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:52:28.977+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:52:28.979+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:28.979+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:52:28.999+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:52:29.024+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:29.023+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:52:29.070+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.096 seconds
+[2026-10-27T07:52:59.357+0000] {processor.py:157} INFO - Started process (PID=787) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:52:59.358+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:52:59.360+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:59.360+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:52:59.384+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:52:59.414+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:52:59.413+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:52:59.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T07:53:29.782+0000] {processor.py:157} INFO - Started process (PID=802) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:53:29.783+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:53:29.786+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:53:29.785+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:53:29.808+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:53:29.834+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:53:29.833+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:53:29.885+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T07:54:00.133+0000] {processor.py:157} INFO - Started process (PID=817) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:54:00.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:54:00.136+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:00.136+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:54:00.157+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:54:00.186+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:00.185+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:54:00.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.112 seconds
+[2026-10-27T07:54:30.538+0000] {processor.py:157} INFO - Started process (PID=832) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:54:30.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:54:30.541+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:30.540+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:54:30.562+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:54:30.589+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:54:30.588+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:54:30.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T07:55:00.896+0000] {processor.py:157} INFO - Started process (PID=847) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:55:00.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:55:00.902+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:00.901+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:55:00.925+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:55:00.957+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:00.956+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:55:01.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.120 seconds
+[2026-10-27T07:55:31.328+0000] {processor.py:157} INFO - Started process (PID=862) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:55:31.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:55:31.332+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:31.332+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:55:31.360+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:55:31.403+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:55:31.402+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:55:31.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.149 seconds
+[2026-10-27T07:56:01.702+0000] {processor.py:157} INFO - Started process (PID=877) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:56:01.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:56:01.706+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:01.706+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:56:01.729+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:56:01.757+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:01.757+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:56:01.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T07:56:32.096+0000] {processor.py:157} INFO - Started process (PID=892) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:56:32.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:56:32.099+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:32.099+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:56:32.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:56:32.150+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:56:32.149+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:56:32.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T07:57:02.486+0000] {processor.py:157} INFO - Started process (PID=907) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:57:02.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:57:02.489+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:02.488+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:57:02.513+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:57:02.539+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:02.538+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:57:02.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T07:57:32.831+0000] {processor.py:157} INFO - Started process (PID=922) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:57:32.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:57:32.834+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:32.834+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:57:32.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:57:32.887+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:57:32.886+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:57:32.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.112 seconds
+[2026-10-27T07:58:03.211+0000] {processor.py:157} INFO - Started process (PID=937) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:58:03.212+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:58:03.214+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:03.214+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:58:03.235+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:58:03.260+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:03.259+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:58:03.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.100 seconds
+[2026-10-27T07:58:33.700+0000] {processor.py:157} INFO - Started process (PID=952) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:58:33.701+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:58:33.703+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:33.703+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:58:33.731+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:58:33.762+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:58:33.761+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:58:33.813+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.117 seconds
+[2026-10-27T07:59:04.063+0000] {processor.py:157} INFO - Started process (PID=967) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:59:04.064+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:59:04.066+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:04.066+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:59:04.087+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:59:04.115+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:04.114+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:59:04.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.128 seconds
+[2026-10-27T07:59:34.471+0000] {processor.py:157} INFO - Started process (PID=982) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:59:34.473+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T07:59:34.476+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:34.475+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:59:34.498+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T07:59:34.527+0000] {logging_mixin.py:154} INFO - [2026-10-27T07:59:34.526+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T07:59:34.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T08:00:04.845+0000] {processor.py:157} INFO - Started process (PID=997) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:00:04.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:00:04.848+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:04.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:00:04.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:00:04.899+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:04.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:00:04.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T08:00:35.214+0000] {processor.py:157} INFO - Started process (PID=1012) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:00:35.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:00:35.217+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:35.217+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:00:35.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:00:35.266+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:00:35.265+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:00:35.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.100 seconds
+[2026-10-27T08:01:05.607+0000] {processor.py:157} INFO - Started process (PID=1027) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:01:05.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:01:05.609+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:05.609+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:01:05.630+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:01:05.655+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:05.655+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:01:05.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T08:01:35.958+0000] {processor.py:157} INFO - Started process (PID=1042) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:01:35.958+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:01:35.960+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:35.960+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:01:35.979+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:01:36.011+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:01:36.010+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:01:36.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.117 seconds
+[2026-10-27T08:02:06.489+0000] {processor.py:157} INFO - Started process (PID=1057) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:02:06.491+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:02:06.495+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:06.495+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:02:06.527+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:02:06.555+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:06.555+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:02:06.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T08:02:36.880+0000] {processor.py:157} INFO - Started process (PID=1075) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:02:36.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:02:36.883+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:36.883+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:02:36.914+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:02:36.947+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:02:36.945+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:02:37.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.125 seconds
+[2026-10-27T08:03:07.316+0000] {processor.py:157} INFO - Started process (PID=1090) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:03:07.317+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:03:07.320+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:07.319+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:03:07.345+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:03:07.380+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:07.379+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:03:07.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.132 seconds
+[2026-10-27T08:03:37.765+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:03:37.766+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:03:37.768+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:37.768+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:03:37.793+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:03:37.820+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:03:37.819+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:03:37.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.101 seconds
+[2026-10-27T08:04:08.143+0000] {processor.py:157} INFO - Started process (PID=1120) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:04:08.144+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:04:08.146+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:08.146+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:04:08.170+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:04:08.197+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:08.197+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:04:08.245+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T08:04:38.492+0000] {processor.py:157} INFO - Started process (PID=1135) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:04:38.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:04:38.495+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:38.495+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:04:38.516+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:04:38.543+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:04:38.542+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:04:38.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.098 seconds
+[2026-10-27T08:05:08.869+0000] {processor.py:157} INFO - Started process (PID=1150) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:05:08.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:05:08.877+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:08.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:05:08.899+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:05:08.925+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:08.924+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:05:08.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T08:05:39.254+0000] {processor.py:157} INFO - Started process (PID=1165) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:05:39.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:05:39.257+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:39.257+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:05:39.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:05:39.321+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:05:39.320+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:05:39.382+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.131 seconds
+[2026-10-27T08:06:09.607+0000] {processor.py:157} INFO - Started process (PID=1180) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:06:09.608+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:06:09.610+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:09.610+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:06:09.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:06:09.659+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:09.659+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:06:09.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds
+[2026-10-27T08:06:39.988+0000] {processor.py:157} INFO - Started process (PID=1195) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:06:39.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:06:39.992+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:39.991+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:06:40.016+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:06:40.044+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:06:40.043+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:06:40.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T08:07:10.355+0000] {processor.py:157} INFO - Started process (PID=1210) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:07:10.356+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:07:10.358+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:10.358+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:07:10.392+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:07:10.417+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:10.416+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:07:10.459+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T08:07:40.767+0000] {processor.py:157} INFO - Started process (PID=1225) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:07:40.769+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:07:40.771+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:40.770+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:07:40.792+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:07:40.819+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:07:40.819+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:07:40.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.097 seconds
+[2026-10-27T08:08:11.190+0000] {processor.py:157} INFO - Started process (PID=1240) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:08:11.192+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:08:11.194+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:11.194+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:08:11.220+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:08:11.248+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:11.247+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:08:11.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T08:08:41.645+0000] {processor.py:157} INFO - Started process (PID=1255) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:08:41.646+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:08:41.648+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:41.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:08:41.669+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:08:41.694+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:08:41.694+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:08:41.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.097 seconds
+[2026-10-27T08:09:12.027+0000] {processor.py:157} INFO - Started process (PID=1270) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:09:12.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:09:12.031+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:12.030+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:09:12.052+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:09:12.080+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:12.079+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:09:12.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.100 seconds
+[2026-10-27T08:09:42.379+0000] {processor.py:157} INFO - Started process (PID=1284) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:09:42.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:09:42.383+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:42.382+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:09:42.405+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:09:42.430+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:09:42.429+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:09:42.480+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T08:10:12.778+0000] {processor.py:157} INFO - Started process (PID=1300) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:10:12.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:10:12.780+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:12.780+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:10:12.801+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:10:12.826+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:12.826+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:10:12.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.093 seconds
+[2026-10-27T08:10:43.202+0000] {processor.py:157} INFO - Started process (PID=1315) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:10:43.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:10:43.205+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:43.205+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:10:43.231+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:10:43.265+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:10:43.264+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:10:43.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.124 seconds
+[2026-10-27T08:11:13.601+0000] {processor.py:157} INFO - Started process (PID=1330) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:11:13.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:11:13.605+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:13.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:11:13.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:11:13.656+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:13.656+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:11:13.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T08:11:43.975+0000] {processor.py:157} INFO - Started process (PID=1345) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:11:43.976+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:11:43.978+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:43.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:11:44.002+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:11:44.028+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:11:44.027+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:11:44.070+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.099 seconds
+[2026-10-27T08:12:14.351+0000] {processor.py:157} INFO - Started process (PID=1360) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:12:14.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:12:14.354+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:14.354+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:12:14.375+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:12:14.400+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:14.400+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:12:14.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.092 seconds
+[2026-10-27T08:12:44.729+0000] {processor.py:157} INFO - Started process (PID=1404) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:12:44.730+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:12:44.732+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:44.732+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:12:44.756+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:12:44.784+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:12:44.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:12:44.831+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T08:13:15.088+0000] {processor.py:157} INFO - Started process (PID=1427) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:13:15.089+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:13:15.091+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:13:15.090+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:13:15.115+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:13:15.144+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:13:15.144+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:13:15.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T08:14:35.590+0000] {processor.py:157} INFO - Started process (PID=1438) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:14:35.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:14:35.594+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:14:35.594+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:14:35.621+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:14:35.649+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:14:35.649+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:32:11.100+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:32:11.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:32:11.104+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:11.104+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:32:11.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:32:11.176+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:11.175+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:32:11.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.138 seconds
+[2026-10-27T08:32:41.587+0000] {processor.py:157} INFO - Started process (PID=204) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:32:41.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:32:41.590+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:41.590+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:32:41.612+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:32:41.636+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:32:41.636+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:32:41.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.096 seconds
+[2026-10-27T08:33:11.920+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:33:11.921+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:33:11.923+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:11.923+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:33:11.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:33:11.977+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:11.976+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:33:12.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.109 seconds
+[2026-10-27T08:33:41.156+0000] {processor.py:157} INFO - Started process (PID=244) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:33:41.157+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:33:41.160+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:41.160+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:33:41.186+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:33:41.214+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:33:41.213+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:33:41.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T08:34:11.780+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:34:11.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:34:11.784+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:11.784+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:34:11.811+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:34:11.846+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:11.845+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:34:11.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.131 seconds
+[2026-10-27T08:34:42.239+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:34:42.241+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:34:42.245+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:42.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:34:42.273+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:34:42.307+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:34:42.306+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:34:42.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.124 seconds
+[2026-10-27T08:35:12.657+0000] {processor.py:157} INFO - Started process (PID=289) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:35:12.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:35:12.662+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:12.661+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:35:12.687+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:35:12.725+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:12.724+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:35:12.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.127 seconds
+[2026-10-27T08:35:43.242+0000] {processor.py:157} INFO - Started process (PID=304) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:35:43.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:35:43.247+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:43.246+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:35:43.281+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:35:43.333+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:35:43.328+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:35:43.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.186 seconds
+[2026-10-27T08:36:14.104+0000] {processor.py:157} INFO - Started process (PID=319) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:36:14.108+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:36:14.122+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:14.122+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:36:14.267+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:36:14.337+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:14.336+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:36:14.403+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.303 seconds
+[2026-10-27T08:36:44.654+0000] {processor.py:157} INFO - Started process (PID=334) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:36:44.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:36:44.667+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:44.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:36:44.692+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:36:44.721+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:36:44.720+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:36:44.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.129 seconds
+[2026-10-27T08:37:15.256+0000] {processor.py:157} INFO - Started process (PID=349) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:37:15.257+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:37:15.260+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:15.260+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:37:15.287+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:37:15.316+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:15.315+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:37:15.378+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.125 seconds
+[2026-10-27T08:37:45.793+0000] {processor.py:157} INFO - Started process (PID=364) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:37:45.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:37:45.798+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:45.798+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:37:45.827+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:37:45.865+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:37:45.860+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:37:45.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.149 seconds
+[2026-10-27T08:38:16.304+0000] {processor.py:157} INFO - Started process (PID=379) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:38:16.305+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:38:16.308+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:16.308+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:38:16.335+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:38:16.369+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:16.368+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:38:16.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.114 seconds
+[2026-10-27T08:38:46.860+0000] {processor.py:157} INFO - Started process (PID=394) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:38:46.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:38:46.864+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:46.864+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:38:46.888+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:38:46.923+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:38:46.922+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:38:46.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.128 seconds
+[2026-10-27T08:39:17.480+0000] {processor.py:157} INFO - Started process (PID=409) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:39:17.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:39:17.483+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:17.483+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:39:17.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:39:17.530+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:17.529+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:39:17.575+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.099 seconds
+[2026-10-27T08:39:47.880+0000] {processor.py:157} INFO - Started process (PID=424) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:39:47.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:39:47.887+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:47.887+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:39:47.923+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:39:47.958+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:39:47.957+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:39:48.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.132 seconds
+[2026-10-27T08:40:18.411+0000] {processor.py:157} INFO - Started process (PID=439) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:40:18.412+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:40:18.415+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:18.414+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:40:18.438+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:40:18.468+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:18.468+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:40:18.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T08:40:48.994+0000] {processor.py:157} INFO - Started process (PID=454) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:40:48.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:40:48.997+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:48.997+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:40:49.016+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:40:49.041+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:40:49.041+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:40:49.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T08:41:19.462+0000] {processor.py:157} INFO - Started process (PID=469) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:41:19.464+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:41:19.466+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:41:19.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:41:19.493+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:41:19.519+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:41:19.519+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:41:19.565+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T08:41:49.973+0000] {processor.py:157} INFO - Started process (PID=484) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:41:49.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:41:49.977+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:41:49.976+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:41:50.002+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:41:50.031+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:41:50.030+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:41:50.084+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.113 seconds
+[2026-10-27T08:42:20.700+0000] {processor.py:157} INFO - Started process (PID=499) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:42:20.701+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:42:20.703+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:20.703+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:42:20.724+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:42:20.749+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:20.748+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:42:20.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.095 seconds
+[2026-10-27T08:42:51.205+0000] {processor.py:157} INFO - Started process (PID=517) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:42:51.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:42:51.207+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:51.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:42:51.227+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:42:51.252+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:42:51.251+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:42:51.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.097 seconds
+[2026-10-27T08:43:21.750+0000] {processor.py:157} INFO - Started process (PID=532) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:43:21.751+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:43:21.755+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:21.754+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:43:21.785+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:43:21.812+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:21.811+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:43:21.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.113 seconds
+[2026-10-27T08:43:52.264+0000] {processor.py:157} INFO - Started process (PID=547) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:43:52.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:43:52.267+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:52.267+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:43:52.291+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:43:52.318+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:43:52.317+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:43:52.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T08:44:23.121+0000] {processor.py:157} INFO - Started process (PID=562) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:44:23.122+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:44:23.124+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:23.124+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:44:23.156+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:44:23.186+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:23.185+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:44:23.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.116 seconds
+[2026-10-27T08:44:53.778+0000] {processor.py:157} INFO - Started process (PID=577) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:44:53.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:44:53.781+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:53.781+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:44:53.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:44:53.828+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:44:53.827+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:44:53.868+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.094 seconds
+[2026-10-27T08:45:24.434+0000] {processor.py:157} INFO - Started process (PID=592) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:45:24.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:45:24.437+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:24.437+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:45:24.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:45:24.484+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:24.483+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:45:24.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T08:45:55.029+0000] {processor.py:157} INFO - Started process (PID=607) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:45:55.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:45:55.032+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:55.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:45:55.051+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:45:55.081+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:45:55.081+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:45:55.118+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.091 seconds
+[2026-10-27T08:46:25.889+0000] {processor.py:157} INFO - Started process (PID=622) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:46:25.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:46:25.892+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:25.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:46:25.912+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:46:25.937+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:25.936+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:46:25.980+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.094 seconds
+[2026-10-27T08:46:56.595+0000] {processor.py:157} INFO - Started process (PID=637) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:46:56.596+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:46:56.598+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:56.598+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:46:56.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:46:56.643+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:46:56.642+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:46:56.693+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.101 seconds
+[2026-10-27T08:47:27.484+0000] {processor.py:157} INFO - Started process (PID=652) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:47:27.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:47:27.488+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:27.487+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:47:27.509+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:47:27.535+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:27.534+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:47:27.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.097 seconds
+[2026-10-27T08:47:58.155+0000] {processor.py:157} INFO - Started process (PID=667) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:47:58.156+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:47:58.158+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:58.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:47:58.184+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:47:58.222+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:47:58.222+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:47:58.275+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.123 seconds
+[2026-10-27T08:48:29.011+0000] {processor.py:157} INFO - Started process (PID=682) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:48:29.011+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:48:29.013+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:29.013+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:48:29.033+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:48:29.057+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:29.057+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:48:29.098+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.090 seconds
+[2026-10-27T08:48:59.325+0000] {processor.py:157} INFO - Started process (PID=697) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:48:59.326+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:48:59.330+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:59.330+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:48:59.356+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:48:59.383+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:48:59.383+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:48:59.431+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.109 seconds
+[2026-10-27T08:49:30.205+0000] {processor.py:157} INFO - Started process (PID=712) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:49:30.206+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:49:30.210+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:49:30.210+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:49:30.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:49:30.268+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:49:30.267+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:49:30.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.121 seconds
+[2026-10-27T08:50:01.066+0000] {processor.py:157} INFO - Started process (PID=727) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:50:01.066+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:50:01.068+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:01.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:50:01.090+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:50:01.114+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:01.114+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:50:01.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.097 seconds
+[2026-10-27T08:50:32.115+0000] {processor.py:157} INFO - Started process (PID=742) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:50:32.117+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:50:32.120+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:32.119+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:50:32.146+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:50:32.178+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:50:32.178+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:50:32.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.123 seconds
+[2026-10-27T08:51:02.833+0000] {processor.py:157} INFO - Started process (PID=757) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:51:02.835+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:51:02.837+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:02.837+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:51:02.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:51:02.891+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:02.890+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:51:02.952+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.121 seconds
+[2026-10-27T08:51:33.753+0000] {processor.py:157} INFO - Started process (PID=772) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:51:33.754+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:51:33.757+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:33.757+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:51:33.780+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:51:33.811+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:51:33.810+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:51:33.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.125 seconds
+[2026-10-27T08:52:04.595+0000] {processor.py:157} INFO - Started process (PID=787) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:52:04.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:52:04.600+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:04.599+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:52:04.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:52:04.669+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:04.668+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:52:04.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.189 seconds
+[2026-10-27T08:52:35.630+0000] {processor.py:157} INFO - Started process (PID=802) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:52:35.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:52:35.634+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:35.633+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:52:35.656+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:52:35.687+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:52:35.686+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:52:35.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T08:53:06.527+0000] {processor.py:157} INFO - Started process (PID=817) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:53:06.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:53:06.530+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:53:06.529+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:53:06.549+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:53:06.572+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:53:06.571+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:53:06.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.085 seconds
+[2026-10-27T08:53:37.334+0000] {processor.py:157} INFO - Started process (PID=838) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:53:37.336+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:53:37.338+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:53:37.338+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:53:37.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:53:37.396+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:53:37.396+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:53:37.443+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.113 seconds
+[2026-10-27T08:54:08.278+0000] {processor.py:157} INFO - Started process (PID=853) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:54:08.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:54:08.280+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:08.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:54:08.300+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:54:08.325+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:08.324+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:54:08.369+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.094 seconds
+[2026-10-27T08:54:39.180+0000] {processor.py:157} INFO - Started process (PID=868) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:54:39.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:54:39.185+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:39.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:54:39.211+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:54:39.241+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:54:39.240+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:54:39.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T08:55:10.046+0000] {processor.py:157} INFO - Started process (PID=883) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:55:10.048+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:55:10.051+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:10.050+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:55:10.076+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:55:10.106+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:10.105+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:55:10.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.114 seconds
+[2026-10-27T08:55:40.959+0000] {processor.py:157} INFO - Started process (PID=898) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:55:40.961+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:55:40.964+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:40.963+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:55:40.992+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:55:41.019+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:55:41.018+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:55:41.074+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.119 seconds
+[2026-10-27T08:56:11.847+0000] {processor.py:157} INFO - Started process (PID=913) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:56:11.848+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:56:11.851+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:11.851+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:56:11.876+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:56:11.902+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:11.902+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:56:11.958+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.118 seconds
+[2026-10-27T08:56:42.746+0000] {processor.py:157} INFO - Started process (PID=928) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:56:42.747+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:56:42.752+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:42.752+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:56:42.776+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:56:42.800+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:56:42.799+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:56:42.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T08:57:13.653+0000] {processor.py:157} INFO - Started process (PID=943) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:57:13.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:57:13.656+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:13.656+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:57:13.681+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:57:13.713+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:13.713+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:57:13.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T08:57:44.484+0000] {processor.py:157} INFO - Started process (PID=958) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:57:44.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:57:44.486+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:44.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:57:44.506+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:57:44.531+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:57:44.531+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:57:44.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T08:58:15.494+0000] {processor.py:157} INFO - Started process (PID=973) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:58:15.495+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:58:15.499+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:15.498+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:58:15.530+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:58:15.564+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:15.563+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:58:15.622+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.132 seconds
+[2026-10-27T08:58:46.471+0000] {processor.py:157} INFO - Started process (PID=988) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:58:46.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:58:46.474+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:46.473+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:58:46.496+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:58:46.527+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:58:46.526+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:58:46.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.111 seconds
+[2026-10-27T08:59:17.310+0000] {processor.py:157} INFO - Started process (PID=1003) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:59:17.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:59:17.313+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:17.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:59:17.347+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:59:17.371+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:17.371+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:59:17.418+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.112 seconds
+[2026-10-27T08:59:47.990+0000] {processor.py:157} INFO - Started process (PID=1016) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:59:47.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T08:59:47.994+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:47.993+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:59:48.018+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T08:59:48.048+0000] {logging_mixin.py:154} INFO - [2026-10-27T08:59:48.048+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T08:59:48.104+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.117 seconds
+[2026-10-27T09:00:19.029+0000] {processor.py:157} INFO - Started process (PID=1031) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:00:19.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:00:19.032+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:19.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:00:19.056+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:00:19.084+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:19.084+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:00:19.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.113 seconds
+[2026-10-27T09:00:50.983+0000] {processor.py:157} INFO - Started process (PID=1046) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:00:50.984+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:00:50.986+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:50.986+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:00:51.007+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:00:51.034+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:00:51.034+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:00:51.085+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:01:22.823+0000] {processor.py:157} INFO - Started process (PID=1061) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:01:22.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:01:22.827+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:22.827+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:01:22.862+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:01:22.903+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:22.902+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:01:22.976+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.159 seconds
+[2026-10-27T09:01:53.684+0000] {processor.py:157} INFO - Started process (PID=1076) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:01:53.684+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:01:53.686+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:53.686+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:01:53.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:01:53.739+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:01:53.738+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:01:53.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:02:25.620+0000] {processor.py:157} INFO - Started process (PID=1091) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:02:25.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:02:25.625+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:25.624+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:02:25.668+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:02:25.695+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:25.695+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:02:25.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.131 seconds
+[2026-10-27T09:02:56.574+0000] {processor.py:157} INFO - Started process (PID=1106) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:02:56.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:02:56.577+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:56.577+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:02:56.601+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:02:56.630+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:02:56.629+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:02:56.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T09:03:28.439+0000] {processor.py:157} INFO - Started process (PID=1121) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:03:28.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:03:28.442+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:03:28.442+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:03:28.465+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:03:28.492+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:03:28.492+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:03:28.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:04:00.313+0000] {processor.py:157} INFO - Started process (PID=1136) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:04:00.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:04:00.317+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:00.317+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:04:00.347+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:04:00.380+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:00.380+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:04:00.442+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.134 seconds
+[2026-10-27T09:04:31.263+0000] {processor.py:157} INFO - Started process (PID=1151) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:04:31.264+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:04:31.267+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:31.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:04:31.289+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:04:31.316+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:04:31.316+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:04:31.365+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T09:05:03.189+0000] {processor.py:157} INFO - Started process (PID=1166) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:05:03.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:05:03.192+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:03.192+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:05:03.215+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:05:03.243+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:03.242+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:05:03.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T09:05:34.129+0000] {processor.py:157} INFO - Started process (PID=1181) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:05:34.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:05:34.132+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:34.132+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:05:34.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:05:34.186+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:05:34.185+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:05:34.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T09:06:05.975+0000] {processor.py:157} INFO - Started process (PID=1196) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:06:05.976+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:06:05.977+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:05.977+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:06:06.001+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:06:06.029+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:06.028+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:06:06.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T09:06:37.872+0000] {processor.py:157} INFO - Started process (PID=1211) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:06:37.873+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:06:37.876+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:37.875+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:06:37.904+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:06:37.951+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:06:37.950+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:06:38.010+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.141 seconds
+[2026-10-27T09:07:08.889+0000] {processor.py:157} INFO - Started process (PID=1226) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:07:08.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:07:08.892+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:08.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:07:08.922+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:07:08.955+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:08.954+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:07:09.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.132 seconds
+[2026-10-27T09:07:40.817+0000] {processor.py:157} INFO - Started process (PID=1241) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:07:40.819+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:07:40.821+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:40.821+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:07:40.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:07:40.887+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:07:40.887+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:07:40.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.135 seconds
+[2026-10-27T09:08:11.808+0000] {processor.py:157} INFO - Started process (PID=1256) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:08:11.810+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:08:11.813+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:11.812+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:08:11.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:08:11.875+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:11.874+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:08:11.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.130 seconds
+[2026-10-27T09:08:43.718+0000] {processor.py:157} INFO - Started process (PID=1271) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:08:43.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:08:43.722+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:43.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:08:43.747+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:08:43.779+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:08:43.778+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:08:43.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.114 seconds
+[2026-10-27T09:09:15.666+0000] {processor.py:157} INFO - Started process (PID=1286) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:09:15.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:09:15.668+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:15.668+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:09:15.690+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:09:15.716+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:15.715+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:09:15.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.109 seconds
+[2026-10-27T09:09:46.512+0000] {processor.py:157} INFO - Started process (PID=1301) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:09:46.513+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:09:46.515+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:46.515+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:09:46.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:09:46.566+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:09:46.565+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:09:46.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:10:18.392+0000] {processor.py:157} INFO - Started process (PID=1316) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:10:18.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:10:18.395+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:18.395+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:10:18.416+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:10:18.444+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:18.443+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:10:18.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T09:10:50.303+0000] {processor.py:157} INFO - Started process (PID=1331) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:10:50.304+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:10:50.307+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:50.306+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:10:50.330+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:10:50.357+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:10:50.356+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:10:50.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T09:11:21.370+0000] {processor.py:157} INFO - Started process (PID=1351) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:11:21.371+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:11:21.373+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:21.373+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:11:21.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:11:21.423+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:21.422+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:11:21.473+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:11:53.257+0000] {processor.py:157} INFO - Started process (PID=1366) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:11:53.257+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:11:53.260+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:53.259+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:11:53.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:11:53.311+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:11:53.310+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:11:53.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T09:12:24.189+0000] {processor.py:157} INFO - Started process (PID=1381) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:12:24.189+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:12:24.192+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:24.191+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:12:24.216+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:12:24.242+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:24.242+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:12:24.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T09:12:56.127+0000] {processor.py:157} INFO - Started process (PID=1396) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:12:56.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:12:56.131+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:56.131+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:12:56.166+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:12:56.197+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:12:56.196+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:12:56.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.127 seconds
+[2026-10-27T09:13:27.163+0000] {processor.py:157} INFO - Started process (PID=1411) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:13:27.165+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:13:27.167+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:27.167+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:13:27.191+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:13:27.221+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:27.220+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:13:27.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.112 seconds
+[2026-10-27T09:13:59.084+0000] {processor.py:157} INFO - Started process (PID=1426) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:13:59.085+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:13:59.087+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:59.086+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:13:59.110+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:13:59.137+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:13:59.136+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:13:59.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:14:29.257+0000] {processor.py:157} INFO - Started process (PID=1441) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:14:29.259+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:14:29.264+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:14:29.263+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:14:30.206+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:14:30.240+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:14:30.238+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:14:30.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.130 seconds
+[2026-10-27T09:15:02.109+0000] {processor.py:157} INFO - Started process (PID=1456) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:15:02.110+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:15:02.114+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:02.113+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:15:02.141+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:15:02.172+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:02.172+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:15:02.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.117 seconds
+[2026-10-27T09:15:34.016+0000] {processor.py:157} INFO - Started process (PID=1471) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:15:34.017+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:15:34.021+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:34.020+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:15:34.047+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:15:34.079+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:15:34.078+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:15:34.128+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.117 seconds
+[2026-10-27T09:16:05.005+0000] {processor.py:157} INFO - Started process (PID=1486) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:16:05.006+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:16:05.009+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:05.009+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:16:05.036+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:16:05.066+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:05.066+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:16:05.118+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.118 seconds
+[2026-10-27T09:16:36.913+0000] {processor.py:157} INFO - Started process (PID=1501) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:16:36.921+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:16:36.924+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:36.923+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:16:36.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:16:36.978+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:16:36.978+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:16:37.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.120 seconds
+[2026-10-27T09:17:08.857+0000] {processor.py:157} INFO - Started process (PID=1516) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:17:08.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:17:08.860+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:08.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:17:08.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:17:08.914+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:08.913+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:17:08.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T09:17:39.789+0000] {processor.py:157} INFO - Started process (PID=1531) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:17:39.790+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:17:39.792+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:39.792+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:17:39.816+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:17:39.844+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:17:39.843+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:17:39.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:18:11.717+0000] {processor.py:157} INFO - Started process (PID=1546) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:18:11.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:18:11.721+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:11.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:18:11.744+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:18:11.769+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:11.769+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:18:11.817+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds
+[2026-10-27T09:18:43.596+0000] {processor.py:157} INFO - Started process (PID=1561) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:18:43.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:18:43.599+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:43.598+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:18:43.620+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:18:43.647+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:18:43.646+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:18:43.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.097 seconds
+[2026-10-27T09:19:14.519+0000] {processor.py:157} INFO - Started process (PID=1576) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:19:14.520+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:19:14.522+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:14.521+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:19:14.547+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:19:14.574+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:14.573+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:19:14.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T09:19:46.407+0000] {processor.py:157} INFO - Started process (PID=1591) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:19:46.409+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:19:46.411+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:46.411+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:19:46.447+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:19:46.480+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:19:46.479+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:19:46.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.135 seconds
+[2026-10-27T09:20:17.443+0000] {processor.py:157} INFO - Started process (PID=1606) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:20:17.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:20:17.446+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:17.446+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:20:17.471+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:20:17.502+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:17.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:20:17.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T09:20:49.345+0000] {processor.py:157} INFO - Started process (PID=1621) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:20:49.346+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:20:49.349+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:49.349+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:20:49.371+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:20:49.398+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:20:49.398+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:20:49.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:21:21.288+0000] {processor.py:157} INFO - Started process (PID=1636) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:21:21.289+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:21:21.291+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:21.291+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:21:21.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:21:21.341+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:21.340+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:21:21.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T09:21:52.251+0000] {processor.py:157} INFO - Started process (PID=1660) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:21:52.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:21:52.255+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:52.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:21:52.280+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:21:52.311+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:21:52.310+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:21:52.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.126 seconds
+[2026-10-27T09:22:24.440+0000] {processor.py:157} INFO - Started process (PID=1682) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:22:24.441+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:22:24.443+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:24.443+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:22:24.465+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:22:24.488+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:24.488+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:22:24.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.095 seconds
+[2026-10-27T09:22:55.369+0000] {processor.py:157} INFO - Started process (PID=1697) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:22:55.370+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:22:55.372+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:55.372+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:22:55.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:22:55.423+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:22:55.423+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:22:55.470+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:23:27.408+0000] {processor.py:157} INFO - Started process (PID=1712) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:23:27.409+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:23:27.412+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:27.411+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:23:27.434+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:23:27.458+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:27.457+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:23:27.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T09:23:59.367+0000] {processor.py:157} INFO - Started process (PID=1727) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:23:59.368+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:23:59.371+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:59.370+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:23:59.394+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:23:59.421+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:23:59.421+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:23:59.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.112 seconds
+[2026-10-27T09:24:30.390+0000] {processor.py:157} INFO - Started process (PID=1742) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:24:30.391+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:24:30.393+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:24:30.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:24:30.415+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:24:30.442+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:24:30.441+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:24:30.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.098 seconds
+[2026-10-27T09:25:02.383+0000] {processor.py:157} INFO - Started process (PID=1757) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:25:02.384+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:25:02.385+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:02.385+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:25:02.408+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:25:02.432+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:02.432+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:25:02.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.096 seconds
+[2026-10-27T09:25:33.380+0000] {processor.py:157} INFO - Started process (PID=1772) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:25:33.381+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:25:33.384+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:33.384+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:25:33.414+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:25:33.447+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:25:33.446+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:25:33.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.132 seconds
+[2026-10-27T09:26:05.403+0000] {processor.py:157} INFO - Started process (PID=1787) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:26:05.405+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:26:05.407+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:05.407+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:26:05.434+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:26:05.467+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:05.466+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:26:05.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.122 seconds
+[2026-10-27T09:26:36.457+0000] {processor.py:157} INFO - Started process (PID=1802) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:26:36.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:26:36.461+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:36.460+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:26:36.486+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:26:36.516+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:26:36.516+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:26:36.574+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.121 seconds
+[2026-10-27T09:27:08.420+0000] {processor.py:157} INFO - Started process (PID=1817) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:27:08.422+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:27:08.425+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:08.425+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:27:08.451+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:27:08.479+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:08.479+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:27:08.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.117 seconds
+[2026-10-27T09:27:39.640+0000] {processor.py:157} INFO - Started process (PID=1832) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:27:39.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:27:39.649+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:39.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:27:39.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:27:39.784+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:27:39.783+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:27:39.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.260 seconds
+[2026-10-27T09:28:11.811+0000] {processor.py:157} INFO - Started process (PID=1856) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:28:11.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:28:11.815+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:11.815+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:28:11.845+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:28:11.882+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:11.881+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:28:11.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.137 seconds
+[2026-10-27T09:28:42.913+0000] {processor.py:157} INFO - Started process (PID=1871) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:28:42.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:28:42.917+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:42.916+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:28:42.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:28:42.965+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:28:42.965+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:28:43.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.108 seconds
+[2026-10-27T09:29:14.897+0000] {processor.py:157} INFO - Started process (PID=1886) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:29:14.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:29:14.901+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:14.900+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:29:14.928+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:29:14.960+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:14.959+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:29:15.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.115 seconds
+[2026-10-27T09:29:46.196+0000] {processor.py:157} INFO - Started process (PID=1901) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:29:46.197+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:29:46.199+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:46.199+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:29:46.224+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:29:46.254+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:29:46.253+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:29:46.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.120 seconds
+[2026-10-27T09:30:18.203+0000] {processor.py:157} INFO - Started process (PID=1916) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:30:18.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:30:18.207+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:18.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:30:18.236+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:30:18.270+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:18.269+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:30:18.324+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.129 seconds
+[2026-10-27T09:30:49.302+0000] {processor.py:157} INFO - Started process (PID=1940) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:30:49.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:30:49.305+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:49.305+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:30:49.328+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:30:49.354+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:30:49.354+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:30:49.403+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:31:21.277+0000] {processor.py:157} INFO - Started process (PID=1955) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:31:21.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:31:21.280+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:21.279+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:31:21.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:31:21.331+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:21.330+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:31:21.384+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.110 seconds
+[2026-10-27T09:31:51.458+0000] {processor.py:157} INFO - Started process (PID=1970) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:31:51.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:31:51.461+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:51.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:31:52.392+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:31:52.417+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:31:52.417+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:31:52.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds
+[2026-10-27T09:32:24.441+0000] {processor.py:157} INFO - Started process (PID=1985) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:32:24.442+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:32:24.444+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:24.444+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:32:24.469+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:32:24.496+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:24.495+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:32:24.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds
+[2026-10-27T09:32:55.618+0000] {processor.py:157} INFO - Started process (PID=2000) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:32:55.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:32:55.622+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:55.622+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:32:55.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:32:55.673+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:32:55.672+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:32:55.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:33:27.674+0000] {processor.py:157} INFO - Started process (PID=2018) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:33:27.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:33:27.679+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:33:27.679+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:33:27.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:33:27.746+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:33:27.745+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:33:27.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.131 seconds
+[2026-10-27T09:33:59.557+0000] {processor.py:157} INFO - Started process (PID=2033) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:33:59.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:33:59.560+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:33:59.560+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:33:59.588+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:33:59.639+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:33:59.638+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:33:59.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.190 seconds
+[2026-10-27T09:34:30.630+0000] {processor.py:157} INFO - Started process (PID=2048) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:34:30.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:34:30.634+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:34:30.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:34:30.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:34:30.690+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:34:30.689+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:34:30.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.113 seconds
+[2026-10-27T09:35:02.812+0000] {processor.py:157} INFO - Started process (PID=2070) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:35:02.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:35:02.816+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:02.815+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:35:02.840+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:35:02.868+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:02.867+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:35:02.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.114 seconds
+[2026-10-27T09:35:33.955+0000] {processor.py:157} INFO - Started process (PID=2085) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:35:33.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:35:33.958+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:33.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:35:33.978+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:35:34.003+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:35:34.003+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:35:34.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.089 seconds
+[2026-10-27T09:36:05.995+0000] {processor.py:157} INFO - Started process (PID=2112) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:36:05.996+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:36:05.998+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:05.998+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:36:06.022+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:36:06.048+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:06.047+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:36:06.100+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T09:36:37.096+0000] {processor.py:157} INFO - Started process (PID=2125) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:36:37.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:36:37.100+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:37.100+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:36:37.149+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:36:37.193+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:36:37.192+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:36:37.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.167 seconds
+[2026-10-27T09:37:09.298+0000] {processor.py:157} INFO - Started process (PID=2142) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:37:09.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:37:09.301+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:09.301+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:37:09.324+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:37:09.351+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:09.350+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:37:09.402+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.106 seconds
+[2026-10-27T09:37:40.438+0000] {processor.py:157} INFO - Started process (PID=2157) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:37:40.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:37:40.441+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:40.440+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:37:40.462+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:37:40.486+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:37:40.485+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:37:40.525+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.090 seconds
+[2026-10-27T09:38:12.499+0000] {processor.py:157} INFO - Started process (PID=2172) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:38:12.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:38:12.503+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:12.502+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:38:12.528+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:38:12.555+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:12.554+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:38:12.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:38:43.657+0000] {processor.py:157} INFO - Started process (PID=2187) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:38:43.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:38:43.660+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:43.660+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:38:43.679+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:38:43.703+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:38:43.703+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:38:43.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.089 seconds
+[2026-10-27T09:39:15.691+0000] {processor.py:157} INFO - Started process (PID=2228) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:39:15.692+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:39:15.694+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:15.694+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:39:15.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:39:15.745+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:15.744+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:39:15.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.103 seconds
+[2026-10-27T09:39:46.853+0000] {processor.py:157} INFO - Started process (PID=2267) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:39:46.854+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:39:46.856+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:46.856+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:39:46.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:39:46.908+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:39:46.907+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:39:46.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.107 seconds
+[2026-10-27T09:40:18.913+0000] {processor.py:157} INFO - Started process (PID=2282) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:40:18.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:40:18.917+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:18.916+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:40:18.942+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:40:18.968+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:18.968+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:40:19.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:40:50.909+0000] {processor.py:157} INFO - Started process (PID=2297) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:40:50.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:40:50.912+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:50.912+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:40:50.935+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:40:50.963+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:40:50.962+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:40:51.010+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.104 seconds
+[2026-10-27T09:41:21.869+0000] {processor.py:157} INFO - Started process (PID=2312) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:41:21.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:41:21.872+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:21.872+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:41:21.894+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:41:21.918+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:21.917+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:41:21.958+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.092 seconds
+[2026-10-27T09:41:53.895+0000] {processor.py:157} INFO - Started process (PID=2327) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:41:53.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:41:53.898+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:53.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:41:53.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:41:53.949+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:41:53.948+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:41:53.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.101 seconds
+[2026-10-27T09:42:25.022+0000] {processor.py:157} INFO - Started process (PID=2342) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:42:25.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:42:25.025+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:25.025+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:42:25.047+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:42:25.075+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:25.074+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:42:25.117+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.098 seconds
+[2026-10-27T09:42:56.997+0000] {processor.py:157} INFO - Started process (PID=2357) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:42:56.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:42:57.000+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:57.000+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:42:57.024+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:42:57.057+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:42:57.056+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:42:57.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.112 seconds
+[2026-10-27T09:43:28.987+0000] {processor.py:157} INFO - Started process (PID=2372) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:43:28.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:43:28.990+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:43:28.989+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:43:29.019+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:43:29.051+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:43:29.050+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:43:29.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.113 seconds
+[2026-10-27T09:44:00.145+0000] {processor.py:157} INFO - Started process (PID=2387) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:44:00.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:44:00.149+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:00.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:44:00.176+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:44:00.213+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:00.212+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:44:00.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.127 seconds
+[2026-10-27T09:44:32.186+0000] {processor.py:157} INFO - Started process (PID=2402) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:44:32.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:44:32.188+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:32.188+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:44:32.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:44:32.235+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:44:32.235+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:44:32.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.099 seconds
+[2026-10-27T09:45:03.361+0000] {processor.py:157} INFO - Started process (PID=2417) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:45:03.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:45:03.365+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:03.365+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:45:03.393+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:45:03.419+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:03.419+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:45:03.467+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.109 seconds
+[2026-10-27T09:45:35.392+0000] {processor.py:157} INFO - Started process (PID=2432) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:45:35.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:45:35.395+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:35.395+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:45:35.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:45:35.446+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:45:35.445+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:45:35.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.100 seconds
+[2026-10-27T09:46:06.532+0000] {processor.py:157} INFO - Started process (PID=2447) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:46:06.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:46:06.536+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:06.535+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:46:06.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:46:06.585+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:06.584+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:46:06.634+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.105 seconds
+[2026-10-27T09:46:38.607+0000] {processor.py:157} INFO - Started process (PID=2474) to work on /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:46:38.608+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/hourly_articles_elt.py for tasks to queue
+[2026-10-27T09:46:38.610+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:38.609+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:46:38.632+0000] {processor.py:839} INFO - DAG(s) dict_keys(['hourly_articles_elt']) retrieved from /opt/airflow/dags/hourly_articles_elt.py
+[2026-10-27T09:46:38.659+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:38.658+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:46:38.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hourly_articles_elt.py took 0.102 seconds

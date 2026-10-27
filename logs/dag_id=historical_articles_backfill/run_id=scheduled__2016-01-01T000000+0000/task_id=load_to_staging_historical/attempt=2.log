@@ -1,0 +1,68 @@
+[2026-10-27T08:02:22.865+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T08:02:22.875+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T08:02:22.876+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 4
+[2026-10-27T08:02:22.893+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T08:02:22.901+0000] {standard_task_runner.py:57} INFO - Started process 1064 to run task
+[2026-10-27T08:02:22.905+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'scheduled__2016-01-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpwdh8cqhn']
+[2026-10-27T08:02:22.908+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask load_to_staging_historical
+[2026-10-27T08:02:22.984+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T08:02:23.105+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-01-01T00:00:00+00:00'
+[2026-10-27T08:02:23.140+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T08:02:23.147+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T08:02:23.148+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T08:02:23.150+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T08:02:23.150+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T08:02:23.151+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T08:02:23.153+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T08:02:23.155+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T08:02:23.156+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T08:02:23.157+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-10-27T08:02:23.157+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/historical_articles_backfill.py", line 105, in load_to_staging_historical
+    client = bigquery_hook.get_client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 161, in get_client
+    credentials=self.get_credentials(),
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 296, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 273, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-10-27T08:02:23.174+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T080222, end_date=20261027T080223
+[2026-10-27T08:02:23.189+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 7 for task load_to_staging_historical (Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.; 1064)
+[2026-10-27T08:02:23.200+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-10-27T08:02:23.229+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
