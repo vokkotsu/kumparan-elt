@@ -72,11 +72,12 @@ def historical_articles_backfill():
         df = pd.read_sql_query(
             query,
             engine,
-            params=(month_start, month_end)
+            params=(month_start.strftime('%Y-%m-%d %H:%M:%S'), month_end.strftime('%Y-%m-%d %H:%M:%S'))
         )
         
+        print(f"Extracted {len(df)} rows")
         if df.empty:
-            print(f"No records found for {month_start.strftime('%Y-%m')}")
+            raise ValueError(f"No records found for {month_start.strftime('%Y-%m')}")
             return None
         
         temp_file = NamedTemporaryFile(mode='w', delete=False, suffix='.json', encoding='utf-8')
