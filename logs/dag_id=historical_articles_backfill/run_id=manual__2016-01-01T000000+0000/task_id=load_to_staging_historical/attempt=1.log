@@ -54,3 +54,59 @@
 [2026-10-27T09:39:43.556+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T093943, end_date=20261027T093943
 [2026-10-27T09:39:43.597+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
 [2026-10-27T09:39:43.621+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:50:12.944+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:50:12.953+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:50:12.954+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:50:12.969+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:50:12.975+0000] {standard_task_runner.py:57} INFO - Started process 2605 to run task
+[2026-10-27T09:50:12.979+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpdsw4b43i']
+[2026-10-27T09:50:12.982+0000] {standard_task_runner.py:85} INFO - Job 36: Subtask load_to_staging_historical
+[2026-10-27T09:50:13.045+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:50:13.148+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:50:13.150+0000] {logging_mixin.py:154} INFO - No file to load
+[2026-10-27T09:50:13.150+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:50:13.162+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T095012, end_date=20261027T095013
+[2026-10-27T09:50:13.192+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:50:13.215+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:51:46.327+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:51:46.338+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:51:46.339+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:51:46.357+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:51:46.365+0000] {standard_task_runner.py:57} INFO - Started process 2707 to run task
+[2026-10-27T09:51:46.369+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp4vu5qxmn']
+[2026-10-27T09:51:46.373+0000] {standard_task_runner.py:85} INFO - Job 43: Subtask load_to_staging_historical
+[2026-10-27T09:51:46.443+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:51:46.576+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:51:46.580+0000] {logging_mixin.py:154} INFO - No file to load
+[2026-10-27T09:51:46.583+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:51:46.605+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T095146, end_date=20261027T095146
+[2026-10-27T09:51:46.662+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:51:46.705+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:59:40.869+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:59:40.878+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:59:40.879+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:59:40.894+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:59:40.900+0000] {standard_task_runner.py:57} INFO - Started process 3076 to run task
+[2026-10-27T09:59:40.903+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpnb6ti4af']
+[2026-10-27T09:59:40.906+0000] {standard_task_runner.py:85} INFO - Job 46: Subtask load_to_staging_historical
+[2026-10-27T09:59:40.956+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:59:41.050+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:59:41.052+0000] {logging_mixin.py:154} INFO - No file to load
+[2026-10-27T09:59:41.052+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:59:41.062+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T095940, end_date=20261027T095941
+[2026-10-27T09:59:41.116+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:59:41.137+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:08:21.176+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:08:21.185+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:08:21.185+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T10:08:21.198+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T10:08:21.205+0000] {standard_task_runner.py:57} INFO - Started process 3399 to run task
+[2026-10-27T10:08:21.207+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpzn9anzwh']
+[2026-10-27T10:08:21.210+0000] {standard_task_runner.py:85} INFO - Job 50: Subtask load_to_staging_historical
+[2026-10-27T10:08:21.261+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T10:08:21.382+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T10:08:21.384+0000] {logging_mixin.py:154} INFO - No file to load
+[2026-10-27T10:08:21.384+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T10:08:21.395+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T100821, end_date=20261027T100821
+[2026-10-27T10:08:21.420+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T10:08:21.443+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check

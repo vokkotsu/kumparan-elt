@@ -270,3 +270,233 @@ google.auth.exceptions.DefaultCredentialsError: Your default credentials were no
 [2026-10-27T09:39:46.876+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 30 for task merge_to_target_historical (Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.; 2255)
 [2026-10-27T09:39:46.898+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
 [2026-10-27T09:39:46.916+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:50:14.421+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:50:14.433+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:50:14.434+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:50:14.450+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): merge_to_target_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:50:14.457+0000] {standard_task_runner.py:57} INFO - Started process 2611 to run task
+[2026-10-27T09:50:14.462+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'merge_to_target_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpluf1bo0u']
+[2026-10-27T09:50:14.467+0000] {standard_task_runner.py:85} INFO - Job 38: Subtask merge_to_target_historical
+[2026-10-27T09:50:14.546+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:50:14.660+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='merge_to_target_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:50:14.661+0000] {logging_mixin.py:154} INFO - No staging table to merge
+[2026-10-27T09:50:14.662+0000] {python.py:194} INFO - Done. Returned value was: None
+[2026-10-27T09:50:14.673+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=merge_to_target_historical, execution_date=20160101T000000, start_date=20261027T095014, end_date=20261027T095014
+[2026-10-27T09:50:14.716+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T09:50:14.750+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:51:48.832+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:51:48.845+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:51:48.846+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:51:48.865+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): merge_to_target_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:51:48.874+0000] {standard_task_runner.py:57} INFO - Started process 2717 to run task
+[2026-10-27T09:51:48.877+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'merge_to_target_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp4209gair']
+[2026-10-27T09:51:48.883+0000] {standard_task_runner.py:85} INFO - Job 44: Subtask merge_to_target_historical
+[2026-10-27T09:51:48.966+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:51:49.093+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='merge_to_target_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:51:49.107+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T09:51:49.114+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T09:51:49.116+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:51:49.118+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T09:51:49.119+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:51:49.119+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T09:51:49.125+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:51:49.128+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:51:49.132+0000] {_metadata.py:139} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 111] Connection refused
+[2026-10-27T09:51:49.133+0000] {_default.py:338} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2026-10-27T09:51:49.134+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/historical_articles_backfill.py", line 148, in merge_to_target_historical
+    client = bigquery_hook.get_client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 161, in get_client
+    credentials=self.get_credentials(),
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 296, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 273, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 362, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 243, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 348, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 691, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[2026-10-27T09:51:49.156+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=historical_articles_backfill, task_id=merge_to_target_historical, execution_date=20160101T000000, start_date=20261027T095148, end_date=20261027T095149
+[2026-10-27T09:51:49.174+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 44 for task merge_to_target_historical (Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.; 2717)
+[2026-10-27T09:51:49.212+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-10-27T09:51:49.237+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T09:59:43.080+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:59:43.090+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T09:59:43.090+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T09:59:43.108+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): merge_to_target_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T09:59:43.117+0000] {standard_task_runner.py:57} INFO - Started process 3082 to run task
+[2026-10-27T09:59:43.124+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'merge_to_target_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp4h8oh_oi']
+[2026-10-27T09:59:43.128+0000] {standard_task_runner.py:85} INFO - Job 48: Subtask merge_to_target_historical
+[2026-10-27T09:59:43.192+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T09:59:43.323+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='merge_to_target_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T09:59:43.338+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T09:59:43.347+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T09:59:43.347+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:59:43.349+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T09:59:43.350+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T09:59:43.350+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T09:59:44.495+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/historical_articles_backfill.py", line 168, in merge_to_target_historical
+    df = client.query(f"SELECT * FROM {staging_backtick}").to_dataframe()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1859, in to_dataframe
+    query_result = wait_for_query(self, progress_bar_type, max_results=max_results)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/_tqdm_helpers.py", line 104, in wait_for_query
+    return query_job.result(max_results=max_results)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1580, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 366, in retry_wrapped_func
+    return retry_target(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 204, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1570, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 922, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/future/polling.py", line 261, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Dataset kumparan-elt-project:kumparan-elt-project.kumparan_dwh was not found in location US
+
+Location: US
+Job ID: 4dcad9f7-8b34-4f53-82da-d39955af4455
+
+[2026-10-27T09:59:44.509+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=historical_articles_backfill, task_id=merge_to_target_historical, execution_date=20160101T000000, start_date=20261027T095943, end_date=20261027T095944
+[2026-10-27T09:59:44.525+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 48 for task merge_to_target_historical (404 Not found: Dataset kumparan-elt-project:kumparan-elt-project.kumparan_dwh was not found in location US
+
+Location: US
+Job ID: 4dcad9f7-8b34-4f53-82da-d39955af4455
+; 3082)
+[2026-10-27T09:59:44.540+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-10-27T09:59:44.559+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:08:23.491+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:08:23.501+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:08:23.502+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T10:08:23.518+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): merge_to_target_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T10:08:23.526+0000] {standard_task_runner.py:57} INFO - Started process 3405 to run task
+[2026-10-27T10:08:23.529+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'merge_to_target_historical', 'manual__2016-01-01T00:00:00+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpgs2menpr']
+[2026-10-27T10:08:23.533+0000] {standard_task_runner.py:85} INFO - Job 52: Subtask merge_to_target_historical
+[2026-10-27T10:08:23.595+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.merge_to_target_historical manual__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T10:08:23.709+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='merge_to_target_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2016-01-01T00:00:00+00:00'
+[2026-10-27T10:08:23.723+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-10-27T10:08:23.731+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/connection.py:327 RemovedInAirflow3Warning: Encountered non-JSON in `extra` field for connection 'google_cloud_default'. Support for non-JSON `extra` will be removed in Airflow 3.0
+[2026-10-27T10:08:23.732+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T10:08:23.734+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2026-10-27T10:08:23.734+0000] {connection.py:440} ERROR - Failed parsing the json for conn_id google_cloud_default
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 437, in extra_dejson
+    obj = json.loads(self.extra)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.8/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2026-10-27T10:08:23.735+0000] {credentials_provider.py:353} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-10-27T10:08:24.773+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/historical_articles_backfill.py", line 168, in merge_to_target_historical
+    df = client.query(f"SELECT * FROM {staging_backtick}").to_dataframe()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1859, in to_dataframe
+    query_result = wait_for_query(self, progress_bar_type, max_results=max_results)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/_tqdm_helpers.py", line 104, in wait_for_query
+    return query_job.result(max_results=max_results)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1580, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 366, in retry_wrapped_func
+    return retry_target(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 204, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1570, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 922, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/future/polling.py", line 261, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Dataset kumparan-elt-project:kumparan-elt-project.kumparan_dwh was not found in location US
+
+Location: US
+Job ID: 1862cb6d-779d-432f-a36c-3eddd2c5b6fd
+
+[2026-10-27T10:08:24.787+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=historical_articles_backfill, task_id=merge_to_target_historical, execution_date=20160101T000000, start_date=20261027T100823, end_date=20261027T100824
+[2026-10-27T10:08:24.807+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 52 for task merge_to_target_historical (404 Not found: Dataset kumparan-elt-project:kumparan-elt-project.kumparan_dwh was not found in location US
+
+Location: US
+Job ID: 1862cb6d-779d-432f-a36c-3eddd2c5b6fd
+; 3405)
+[2026-10-27T10:08:24.825+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2026-10-27T10:08:24.845+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

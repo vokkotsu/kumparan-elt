@@ -1386,3 +1386,286 @@
 [2026-10-27T09:46:38.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
 [2026-10-27T09:46:38.522+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:46:38.522+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2026-10-27T09:46:38.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.134 seconds
+[2026-10-27T09:47:10.450+0000] {processor.py:157} INFO - Started process (PID=2482) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:47:10.450+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:47:10.453+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:47:10.452+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:47:10.475+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:47:10.503+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:47:10.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:47:10.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.103 seconds
+[2026-10-27T09:47:41.572+0000] {processor.py:157} INFO - Started process (PID=2497) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:47:41.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:47:41.575+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:47:41.575+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:47:41.600+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:47:41.629+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:47:41.629+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:47:41.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.110 seconds
+[2026-10-27T09:48:13.600+0000] {processor.py:157} INFO - Started process (PID=2512) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:48:13.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:48:13.605+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:48:13.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:48:13.629+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:48:13.658+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:48:13.658+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:48:13.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.107 seconds
+[2026-10-27T09:48:45.059+0000] {processor.py:157} INFO - Started process (PID=2527) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:48:45.060+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:48:45.062+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:48:45.062+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:48:45.089+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:48:45.120+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:48:45.119+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:48:45.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.108 seconds
+[2026-10-27T09:49:15.262+0000] {processor.py:157} INFO - Started process (PID=2549) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:49:15.264+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:49:15.267+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:49:15.267+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:49:15.293+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:49:15.324+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:49:15.323+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:49:15.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.115 seconds
+[2026-10-27T09:49:48.288+0000] {processor.py:157} INFO - Started process (PID=2593) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:49:48.289+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:49:48.291+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:49:48.291+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:49:48.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:49:48.340+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:49:48.340+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:49:48.556+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.271 seconds
+[2026-10-27T09:50:19.582+0000] {processor.py:157} INFO - Started process (PID=2622) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:50:19.584+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:50:19.587+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:50:19.586+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:50:19.616+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:50:19.646+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:50:19.645+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:50:19.676+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:50:19.676+0000] {dag.py:3722} INFO - Setting next_dagrun for historical_articles_backfill to 2016-01-01T00:00:00+00:00, run_after=2016-02-01T00:00:00+00:00
+[2026-10-27T09:50:19.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.127 seconds
+[2026-10-27T09:50:50.189+0000] {processor.py:157} INFO - Started process (PID=2657) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:50:50.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:50:50.192+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:50:50.191+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:50:50.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:50:50.237+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:50:50.237+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:50:51.331+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.248 seconds
+[2026-10-27T09:51:23.071+0000] {processor.py:157} INFO - Started process (PID=2680) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:51:23.073+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:51:23.076+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:51:23.075+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:51:23.101+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:51:23.132+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:51:23.131+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:51:23.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.113 seconds
+[2026-10-27T09:51:55.184+0000] {processor.py:157} INFO - Started process (PID=2724) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:51:55.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:51:55.187+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:51:55.187+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:51:55.216+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:51:55.247+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:51:55.246+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:51:55.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.121 seconds
+[2026-10-27T09:52:26.704+0000] {processor.py:157} INFO - Started process (PID=2739) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:52:26.705+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:52:26.707+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:52:26.706+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:52:26.731+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:52:26.757+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:52:26.756+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:52:26.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.103 seconds
+[2026-10-27T09:52:56.902+0000] {processor.py:157} INFO - Started process (PID=2754) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:52:56.903+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:52:57.802+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:52:57.801+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:52:57.827+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:52:57.858+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:52:57.858+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:52:57.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.134 seconds
+[2026-10-27T09:53:28.441+0000] {processor.py:157} INFO - Started process (PID=2769) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:53:28.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:53:28.445+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:53:28.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:53:28.471+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:53:28.499+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:53:28.498+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:53:29.604+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.266 seconds
+[2026-10-27T09:54:01.533+0000] {processor.py:157} INFO - Started process (PID=2784) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:54:01.534+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:54:01.537+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:54:01.537+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:54:01.560+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:54:01.588+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:54:01.587+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:54:01.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.103 seconds
+[2026-10-27T09:54:31.747+0000] {processor.py:157} INFO - Started process (PID=2814) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:54:31.748+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:54:31.751+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:54:31.750+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:54:31.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:54:32.705+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:54:32.704+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:54:32.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.278 seconds
+[2026-10-27T09:55:04.845+0000] {processor.py:157} INFO - Started process (PID=2829) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:04.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:55:04.849+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:55:04.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:04.875+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:04.908+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:55:04.907+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:55:05.166+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.326 seconds
+[2026-10-27T09:55:36.351+0000] {processor.py:157} INFO - Started process (PID=2850) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:36.353+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:55:36.357+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:55:36.356+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:36.389+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:36.425+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:55:36.424+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:55:36.480+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.133 seconds
+[2026-10-27T09:55:50.475+0000] {processor.py:157} INFO - Started process (PID=2868) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:50.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:55:50.480+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:55:50.480+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:50.523+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:55:50.563+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:55:50.563+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:55:50.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.406 seconds
+[2026-10-27T09:56:19.147+0000] {processor.py:157} INFO - Started process (PID=2902) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:56:19.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:56:19.154+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:56:19.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:56:19.211+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:56:19.258+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:56:19.258+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:56:19.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.600 seconds
+[2026-10-27T09:56:49.823+0000] {processor.py:157} INFO - Started process (PID=2917) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:56:49.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:56:49.828+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:56:49.827+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:56:49.855+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:56:49.898+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:56:49.896+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:56:49.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.141 seconds
+[2026-10-27T09:57:20.290+0000] {processor.py:157} INFO - Started process (PID=2932) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:20.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:57:20.298+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:57:20.297+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:20.332+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:20.374+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:57:20.374+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:57:20.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.422 seconds
+[2026-10-27T09:57:50.942+0000] {processor.py:157} INFO - Started process (PID=2947) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:50.944+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:57:50.950+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:57:50.949+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:50.987+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:51.336+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:57:51.336+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:57:51.387+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.451 seconds
+[2026-10-27T09:57:52.875+0000] {processor.py:157} INFO - Started process (PID=2952) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:52.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:57:52.880+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:57:52.880+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:52.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:57:52.950+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:57:52.949+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:57:53.006+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.135 seconds
+[2026-10-27T09:58:19.909+0000] {processor.py:157} INFO - Started process (PID=2986) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:58:19.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:58:19.913+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:58:19.913+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:58:19.986+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:58:20.024+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:58:20.023+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:58:20.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.183 seconds
+[2026-10-27T09:58:50.145+0000] {processor.py:157} INFO - Started process (PID=3020) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:58:50.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:58:50.148+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:58:50.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:58:50.170+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:58:50.196+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:58:50.195+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:58:50.238+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.096 seconds
+[2026-10-27T09:59:13.448+0000] {processor.py:157} INFO - Started process (PID=3035) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:13.449+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:59:13.452+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:59:13.451+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:13.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:13.519+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:59:13.518+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:59:13.574+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.129 seconds
+[2026-10-27T09:59:13.627+0000] {processor.py:157} INFO - Started process (PID=3040) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:13.628+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:59:13.631+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:59:13.631+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:13.672+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:13.703+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:59:13.703+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:59:13.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.132 seconds
+[2026-10-27T09:59:43.827+0000] {processor.py:157} INFO - Started process (PID=3083) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:43.828+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T09:59:43.829+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:59:43.829+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:43.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T09:59:43.880+0000] {logging_mixin.py:154} INFO - [2026-10-27T09:59:43.880+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T09:59:43.951+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.127 seconds
+[2026-10-27T10:00:14.009+0000] {processor.py:157} INFO - Started process (PID=3098) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:00:14.010+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:00:14.012+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:00:14.012+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:00:14.037+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:00:14.064+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:00:14.063+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:00:14.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.103 seconds
+[2026-10-27T10:00:44.292+0000] {processor.py:157} INFO - Started process (PID=3116) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:00:44.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:00:44.295+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:00:44.295+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:00:44.320+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:00:44.345+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:00:44.345+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:00:44.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.100 seconds
+[2026-10-27T10:01:15.301+0000] {processor.py:157} INFO - Started process (PID=3131) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:01:15.302+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:01:15.304+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:01:15.304+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:01:15.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:01:15.350+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:01:15.350+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:01:15.400+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.101 seconds
+[2026-10-27T10:01:46.361+0000] {processor.py:157} INFO - Started process (PID=3146) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:01:46.362+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:01:46.365+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:01:46.364+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:01:46.395+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:01:46.421+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:01:46.420+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:01:46.478+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.120 seconds
+[2026-10-27T10:02:16.527+0000] {processor.py:157} INFO - Started process (PID=3161) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:02:16.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:02:16.530+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:02:16.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:02:16.553+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:02:16.578+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:02:16.578+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:02:16.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.099 seconds
+[2026-10-27T10:02:47.671+0000] {processor.py:157} INFO - Started process (PID=3176) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:02:47.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:02:47.675+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:02:47.674+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:02:47.700+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:02:47.728+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:02:47.727+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:02:47.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.105 seconds
+[2026-10-27T10:03:18.815+0000] {processor.py:157} INFO - Started process (PID=3191) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:03:18.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:03:18.818+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:03:18.818+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:03:18.841+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:03:18.865+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:03:18.865+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:03:18.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.103 seconds
+[2026-10-27T10:03:49.105+0000] {processor.py:157} INFO - Started process (PID=3206) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:03:49.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:03:49.108+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:03:49.108+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:03:49.139+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:03:49.173+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:03:49.173+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:03:49.231+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.129 seconds
+[2026-10-27T10:04:19.278+0000] {processor.py:157} INFO - Started process (PID=3221) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:04:19.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:04:19.281+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:04:19.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:04:19.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:04:19.329+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:04:19.328+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:04:19.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.110 seconds
+[2026-10-27T10:04:50.277+0000] {processor.py:157} INFO - Started process (PID=3236) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:04:50.278+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:04:50.280+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:04:50.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:04:50.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:04:50.334+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:04:50.334+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:04:50.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.108 seconds
+[2026-10-27T10:05:21.269+0000] {processor.py:157} INFO - Started process (PID=3251) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:05:21.270+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:05:21.272+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:05:21.272+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:05:21.294+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:05:21.320+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:05:21.319+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:05:21.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.115 seconds
+[2026-10-27T10:05:52.302+0000] {processor.py:157} INFO - Started process (PID=3266) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:05:52.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:05:52.306+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:05:52.306+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:05:52.333+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:05:52.361+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:05:52.361+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:05:52.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.106 seconds
+[2026-10-27T10:06:23.310+0000] {processor.py:157} INFO - Started process (PID=3281) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:06:23.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:06:23.313+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:06:23.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:06:23.335+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:06:23.361+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:06:23.360+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:06:23.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.102 seconds
+[2026-10-27T10:06:54.340+0000] {processor.py:157} INFO - Started process (PID=3296) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:06:54.341+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:06:54.343+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:06:54.343+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:06:54.365+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:06:54.404+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:06:54.403+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:06:54.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.114 seconds
+[2026-10-27T10:07:24.544+0000] {processor.py:157} INFO - Started process (PID=3326) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:07:24.545+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:07:24.547+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:07:24.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:07:24.570+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:07:24.595+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:07:24.594+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:07:24.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.101 seconds
+[2026-10-27T10:07:55.585+0000] {processor.py:157} INFO - Started process (PID=3382) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:07:55.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:07:55.588+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:07:55.587+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:07:55.611+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:07:55.637+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:07:55.637+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:07:55.685+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.103 seconds
+[2026-10-27T10:08:25.742+0000] {processor.py:157} INFO - Started process (PID=3406) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:08:25.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:08:25.745+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:08:25.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:08:25.769+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:08:25.796+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:08:25.795+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:08:25.842+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.104 seconds
+[2026-10-27T10:08:56.750+0000] {processor.py:157} INFO - Started process (PID=3421) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:08:56.751+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:08:56.754+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:08:56.753+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:08:56.778+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:08:56.806+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:08:56.805+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:08:56.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.106 seconds
+[2026-10-27T10:09:26.912+0000] {processor.py:157} INFO - Started process (PID=3436) to work on /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:09:26.913+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/historical_articles_backfill.py for tasks to queue
+[2026-10-27T10:09:26.915+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:09:26.915+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:09:26.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['historical_articles_backfill']) retrieved from /opt/airflow/dags/historical_articles_backfill.py
+[2026-10-27T10:09:26.970+0000] {logging_mixin.py:154} INFO - [2026-10-27T10:09:26.969+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-10-27T10:09:27.022+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/historical_articles_backfill.py took 0.113 seconds

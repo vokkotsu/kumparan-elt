@@ -2284,3 +2284,433 @@ File Path                                            PID  Runtime      # DAGs   
 /opt/airflow/dags/historical_articles_backfill.py   2467  0.01s             1           0  1.06s           2026-10-27T09:46:06
 /opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:46:06
 ================================================================================
+[2026-10-27T09:47:10.440+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py               2479  0.02s             1           0  0.18s           2026-10-27T09:46:38
+/opt/airflow/dags/historical_articles_backfill.py   2482  0.01s             1           0  0.17s           2026-10-27T09:46:38
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T09:46:38
+================================================================================
+[2026-10-27T09:47:16.433+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T09:47:16.474+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T09:47:42.708+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T09:47:41
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T09:47:41
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.12s           2026-10-27T09:47:41
+================================================================================
+[2026-10-27T09:48:14.723+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T09:48:13
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T09:48:13
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.45s           2026-10-27T09:48:14
+================================================================================
+[2026-10-27T09:48:47.203+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.15s           2026-10-27T09:48:45
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T09:48:45
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:48:45
+================================================================================
+[2026-10-27T09:49:19.309+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.15s           2026-10-27T09:49:15
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  1.05s           2026-10-27T09:49:16
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  1.02s           2026-10-27T09:49:16
+================================================================================
+[2026-10-27T09:49:51.449+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.44s           2026-10-27T09:49:45
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.31s           2026-10-27T09:49:48
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:49:48
+================================================================================
+[2026-10-27T09:50:23.591+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.17s           2026-10-27T09:50:16
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  1.06s           2026-10-27T09:50:19
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:50:18
+================================================================================
+[2026-10-27T09:50:55.377+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.16s           2026-10-27T09:50:47
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  1.18s           2026-10-27T09:50:51
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  1.21s           2026-10-27T09:50:50
+================================================================================
+[2026-10-27T09:51:27.097+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.13s           2026-10-27T09:51:17
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T09:51:23
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T09:51:20
+================================================================================
+[2026-10-27T09:51:59.327+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.22s           2026-10-27T09:51:48
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.16s           2026-10-27T09:51:55
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.15s           2026-10-27T09:51:50
+================================================================================
+[2026-10-27T09:52:16.446+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T09:52:16.494+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T09:52:31.730+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.44s           2026-10-27T09:52:18
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T09:52:26
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.30s           2026-10-27T09:52:21
+================================================================================
+[2026-10-27T09:53:03.862+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.17s           2026-10-27T09:52:50
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  1.07s           2026-10-27T09:52:57
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:52:52
+================================================================================
+[2026-10-27T09:53:35.662+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.16s           2026-10-27T09:53:20
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  1.21s           2026-10-27T09:53:29
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.35s           2026-10-27T09:53:22
+================================================================================
+[2026-10-27T09:54:07.552+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.36s           2026-10-27T09:53:50
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T09:54:01
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.31s           2026-10-27T09:53:53
+================================================================================
+[2026-10-27T09:54:39.675+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.16s           2026-10-27T09:54:21
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  1.22s           2026-10-27T09:54:32
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:54:23
+================================================================================
+[2026-10-27T09:55:12.130+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.29s           2026-10-27T09:54:52
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.36s           2026-10-27T09:55:05
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.28s           2026-10-27T09:54:54
+================================================================================
+[2026-10-27T09:55:44.384+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.37s           2026-10-27T09:55:23
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.17s           2026-10-27T09:55:36
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.17s           2026-10-27T09:55:24
+================================================================================
+[2026-10-27T09:56:16.080+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.39s           2026-10-27T09:55:54
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.45s           2026-10-27T09:55:50
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.36s           2026-10-27T09:55:55
+================================================================================
+[2026-10-27T09:56:47.767+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.42s           2026-10-27T09:56:24
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.66s           2026-10-27T09:56:19
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.38s           2026-10-27T09:56:25
+================================================================================
+[2026-10-27T09:57:16.839+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T09:57:16.872+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T09:57:19.904+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.16s           2026-10-27T09:56:55
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.18s           2026-10-27T09:56:49
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.41s           2026-10-27T09:56:56
+================================================================================
+[2026-10-27T09:57:51.927+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.37s           2026-10-27T09:57:25
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.50s           2026-10-27T09:57:51
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.38s           2026-10-27T09:57:27
+================================================================================
+[2026-10-27T09:58:24.046+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.13s           2026-10-27T09:57:56
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.22s           2026-10-27T09:58:20
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T09:57:57
+================================================================================
+[2026-10-27T09:58:56.170+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.17s           2026-10-27T09:58:26
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T09:58:50
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.23s           2026-10-27T09:58:27
+================================================================================
+[2026-10-27T09:59:28.373+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T09:59:27
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.17s           2026-10-27T09:59:13
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.15s           2026-10-27T09:58:58
+================================================================================
+[2026-10-27T10:00:00.739+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T09:59:57
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.16s           2026-10-27T09:59:43
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.17s           2026-10-27T09:59:58
+================================================================================
+[2026-10-27T10:00:33.039+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.17s           2026-10-27T10:00:27
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T10:00:14
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.16s           2026-10-27T10:00:29
+================================================================================
+[2026-10-27T10:01:05.208+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.15s           2026-10-27T10:00:58
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T10:00:44
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:01:00
+================================================================================
+[2026-10-27T10:01:37.275+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.13s           2026-10-27T10:01:29
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T10:01:15
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:01:31
+================================================================================
+[2026-10-27T10:02:09.444+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.13s           2026-10-27T10:01:59
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T10:01:46
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:02:01
+================================================================================
+[2026-10-27T10:02:17.616+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T10:02:17.655+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T10:02:41.579+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.13s           2026-10-27T10:02:30
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T10:02:16
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T10:02:32
+================================================================================
+[2026-10-27T10:03:13.747+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T10:03:00
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T10:02:47
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T10:03:02
+================================================================================
+[2026-10-27T10:03:45.842+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.17s           2026-10-27T10:03:31
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T10:03:18
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.18s           2026-10-27T10:03:32
+================================================================================
+[2026-10-27T10:04:18.121+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.17s           2026-10-27T10:04:03
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.16s           2026-10-27T10:03:49
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:04:03
+================================================================================
+[2026-10-27T10:04:50.262+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  1.06s           2026-10-27T10:04:34
+/opt/airflow/dags/historical_articles_backfill.py   3236  0.01s             1           0  0.14s           2026-10-27T10:04:19
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.12s           2026-10-27T10:04:34
+================================================================================
+[2026-10-27T10:05:22.382+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.16s           2026-10-27T10:05:06
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T10:05:21
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.15s           2026-10-27T10:05:06
+================================================================================
+[2026-10-27T10:05:54.398+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T10:05:38
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T10:05:52
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:05:38
+================================================================================
+[2026-10-27T10:06:26.417+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.15s           2026-10-27T10:06:09
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.13s           2026-10-27T10:06:23
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.14s           2026-10-27T10:06:09
+================================================================================
+[2026-10-27T10:06:58.409+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T10:06:41
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T10:06:54
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:06:41
+================================================================================
+[2026-10-27T10:07:18.422+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2026-10-27T10:07:18.464+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2026-10-27T10:07:30.580+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  1.03s           2026-10-27T10:07:12
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T10:07:24
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  1.03s           2026-10-27T10:07:12
+================================================================================
+[2026-10-27T10:08:02.621+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T10:07:44
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T10:07:55
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.13s           2026-10-27T10:07:44
+================================================================================
+[2026-10-27T10:08:34.773+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.15s           2026-10-27T10:08:14
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.15s           2026-10-27T10:08:25
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  1.03s           2026-10-27T10:08:15
+================================================================================
+[2026-10-27T10:09:06.924+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hard_delete_sync.py                                       1           0  0.14s           2026-10-27T10:08:44
+/opt/airflow/dags/historical_articles_backfill.py                           1           0  0.14s           2026-10-27T10:08:56
+/opt/airflow/dags/hourly_articles_elt.py                                    1           0  0.15s           2026-10-27T10:08:47
+================================================================================
