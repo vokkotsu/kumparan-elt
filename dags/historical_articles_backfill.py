@@ -167,8 +167,8 @@ def historical_articles_backfill():
         load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
         # Read from staging table and load to target table
-        staging_backtick = f"`{project_id}.{staging_table}`"
-        df = client.query(f"SELECT * FROM {staging_backtick}").to_dataframe()
+        # staging_table is already full reference: project.dataset.table
+        df = client.query(f"SELECT * FROM `{staging_table}`").to_dataframe()
         
         # Load with WRITE_TRUNCATE to overwrite target
         target_full_name = f"{project_id}.{dataset_id}.articles"
