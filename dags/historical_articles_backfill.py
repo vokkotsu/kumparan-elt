@@ -106,8 +106,10 @@ def historical_articles_backfill():
             os.unlink(extracted_file_path)
             return None
         
-        bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
-        client = bigquery_hook.get_client()
+        # Use the service account key via environment variable
+        # The GOOGLE_APPLICATION_CREDENTIALS is already set in docker-compose.yml
+        from google.cloud import bigquery
+        client = bigquery.Client()
         
         project_id = client.project
         dataset_id = 'kumparan_dwh'
@@ -148,8 +150,10 @@ def historical_articles_backfill():
                 os.unlink(staging_info['temp_file'])
             return
         
-        bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
-        client = bigquery_hook.get_client()
+        # Use the service account key via environment variable
+        # The GOOGLE_APPLICATION_CREDENTIALS is already set in docker-compose.yml
+        from google.cloud import bigquery
+        client = bigquery.Client()
         
         project_id = client.project
         dataset_id = 'kumparan_dwh'
@@ -163,7 +167,6 @@ def historical_articles_backfill():
         load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
         # Read from staging table and load to target table
-        # Use backticks for project ID with hyphens
         staging_backtick = f"`{project_id}.{staging_table}`"
         df = client.query(f"SELECT * FROM {staging_backtick}").to_dataframe()
         
