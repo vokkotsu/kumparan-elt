@@ -106,3 +106,31 @@ json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
 [2026-10-27T09:50:26.460+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160201T000000, start_date=20261027T095023, end_date=20261027T095026
 [2026-10-27T09:50:26.484+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
 [2026-10-27T09:50:26.509+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:26:16.961+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:26:16.970+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:26:16.970+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T10:26:16.986+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-02-01 00:00:00+00:00
+[2026-10-27T10:26:16.993+0000] {standard_task_runner.py:57} INFO - Started process 3961 to run task
+[2026-10-27T10:26:16.996+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'scheduled__2016-02-01T00:00:00+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp6v566de_']
+[2026-10-27T10:26:17.000+0000] {standard_task_runner.py:85} INFO - Job 60: Subtask load_to_staging_historical
+[2026-10-27T10:26:17.066+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-02-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T10:26:17.185+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-02-01T00:00:00+00:00'
+[2026-10-27T10:26:20.134+0000] {logging_mixin.py:154} INFO - Loaded 85 records to staging table kumparan-elt-project.kumparan_dwh.staging_articles_backfill_20160201T000000
+[2026-10-27T10:26:20.135+0000] {python.py:194} INFO - Done. Returned value was: {'staging_table': 'kumparan-elt-project.kumparan_dwh.staging_articles_backfill_20160201T000000', 'temp_file': '/tmp/tmpbc2ml1qc.json'}
+[2026-10-27T10:26:20.165+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160201T000000, start_date=20261027T102616, end_date=20261027T102620
+[2026-10-27T10:26:20.221+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T10:26:20.246+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:37:52.875+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:37:52.883+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:37:52.883+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T10:37:52.896+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-02-01 00:00:00+00:00
+[2026-10-27T10:37:52.902+0000] {standard_task_runner.py:57} INFO - Started process 4415 to run task
+[2026-10-27T10:37:52.905+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'scheduled__2016-02-01T00:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmpzu5fsu9a']
+[2026-10-27T10:37:52.907+0000] {standard_task_runner.py:85} INFO - Job 77: Subtask load_to_staging_historical
+[2026-10-27T10:37:52.955+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-02-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T10:37:53.049+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-02-01T00:00:00+00:00'
+[2026-10-27T10:37:55.263+0000] {logging_mixin.py:154} INFO - Loaded 85 records to staging table kumparan-elt-project.kumparan_dwh.staging_articles_backfill_20160201T000000
+[2026-10-27T10:37:55.264+0000] {python.py:194} INFO - Done. Returned value was: {'staging_table': 'kumparan-elt-project.kumparan_dwh.staging_articles_backfill_20160201T000000', 'temp_file': '/tmp/tmp6x5o5djp.json'}
+[2026-10-27T10:37:55.298+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160201T000000, start_date=20261027T103752, end_date=20261027T103755
+[2026-10-27T10:37:55.364+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T10:37:55.392+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check

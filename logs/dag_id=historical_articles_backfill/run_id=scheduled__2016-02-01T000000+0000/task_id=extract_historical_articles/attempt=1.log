@@ -31,3 +31,37 @@
 [2026-10-27T09:50:22.506+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=extract_historical_articles, execution_date=20160201T000000, start_date=20261027T095022, end_date=20261027T095022
 [2026-10-27T09:50:22.548+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
 [2026-10-27T09:50:22.583+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:26:14.802+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.extract_historical_articles scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:26:14.810+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.extract_historical_articles scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:26:14.810+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T10:26:14.824+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): extract_historical_articles> on 2016-02-01 00:00:00+00:00
+[2026-10-27T10:26:14.831+0000] {standard_task_runner.py:57} INFO - Started process 3958 to run task
+[2026-10-27T10:26:14.834+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'extract_historical_articles', 'scheduled__2016-02-01T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp93tr_5ld']
+[2026-10-27T10:26:14.838+0000] {standard_task_runner.py:85} INFO - Job 59: Subtask extract_historical_articles
+[2026-10-27T10:26:14.897+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.extract_historical_articles scheduled__2016-02-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T10:26:15.013+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='extract_historical_articles' AIRFLOW_CTX_EXECUTION_DATE='2016-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-02-01T00:00:00+00:00'
+[2026-10-27T10:26:15.021+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:314 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2026-10-27T10:26:15.032+0000] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-10-27T10:26:15.055+0000] {logging_mixin.py:154} INFO - Extracted 85 rows
+[2026-10-27T10:26:15.060+0000] {logging_mixin.py:154} INFO - Extracted 85 records for 2016-02. Saved to /tmp/tmpbc2ml1qc.json
+[2026-10-27T10:26:15.061+0000] {python.py:194} INFO - Done. Returned value was: /tmp/tmpbc2ml1qc.json
+[2026-10-27T10:26:15.087+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=extract_historical_articles, execution_date=20160201T000000, start_date=20261027T102614, end_date=20261027T102615
+[2026-10-27T10:26:15.127+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T10:26:15.154+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T10:37:51.119+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.extract_historical_articles scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:37:51.128+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.extract_historical_articles scheduled__2016-02-01T00:00:00+00:00 [queued]>
+[2026-10-27T10:37:51.129+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T10:37:51.144+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): extract_historical_articles> on 2016-02-01 00:00:00+00:00
+[2026-10-27T10:37:51.150+0000] {standard_task_runner.py:57} INFO - Started process 4412 to run task
+[2026-10-27T10:37:51.153+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'extract_historical_articles', 'scheduled__2016-02-01T00:00:00+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmp8e9de8o6']
+[2026-10-27T10:37:51.156+0000] {standard_task_runner.py:85} INFO - Job 76: Subtask extract_historical_articles
+[2026-10-27T10:37:51.214+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.extract_historical_articles scheduled__2016-02-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T10:37:51.312+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='extract_historical_articles' AIRFLOW_CTX_EXECUTION_DATE='2016-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-02-01T00:00:00+00:00'
+[2026-10-27T10:37:51.320+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:314 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2026-10-27T10:37:51.331+0000] {base.py:73} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-10-27T10:37:51.356+0000] {logging_mixin.py:154} INFO - Extracted 85 rows
+[2026-10-27T10:37:51.361+0000] {logging_mixin.py:154} INFO - Extracted 85 records for 2016-02. Saved to /tmp/tmp6x5o5djp.json
+[2026-10-27T10:37:51.362+0000] {python.py:194} INFO - Done. Returned value was: /tmp/tmp6x5o5djp.json
+[2026-10-27T10:37:51.388+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=extract_historical_articles, execution_date=20160201T000000, start_date=20261027T103751, end_date=20261027T103751
+[2026-10-27T10:37:51.447+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T10:37:51.473+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
