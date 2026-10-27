@@ -160,22 +160,27 @@ def historical_articles_backfill():
         target_table = f"{project_id}.{dataset_id}.articles"
         staging_table = staging_info['staging_table']
         
-        # Use LOAD job instead of MERGE DML query
-        # DML (MERGE) not allowed on free tier; LOAD job works without billing
-        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
-        load_job_config = LoadJobConfig()
-        load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
+        # Use MERGE DML query for correct upsert behavior
+        merge_query = f"""
+        MERGE `{target_table}` T
+        USING `{staging_table}` S
+        ON T.id = S.id
+        WHEN MATCHED THEN
+          UPDATE SET
+            title = S.title,
+            content = S.content,
+            published_at = S.published_at,
+            author_id = S.author_id,
+            created_at = S.created_at,
+            updated_at = S.updated_at,
+            deleted_at = S.deleted_at
+        WHEN NOT MATCHED THEN
+          INSERT (id, title, content, published_at, author_id, created_at, updated_at, deleted_at)
+          VALUES (S.id, S.title, S.content, S.published_at, S.author_id, S.created_at, S.updated_at, S.deleted_at)
+        """
         
-        # Read from staging table and load to target table
-        # staging_table is already full reference: project.dataset.table
-        df = client.query(f"SELECT * FROM `{staging_table}`").to_dataframe()
-        
-        # Load with WRITE_TRUNCATE to overwrite target
-        target_full_name = f"{project_id}.{dataset_id}.articles"
-        load_job = client.load_table_from_dataframe(df, target_full_name, job_config=load_job_config)
-        load_job.result()
-        
-        print(f"Historical merge completed. Rows loaded to target: {load_job.output_rows}")
+        client.query(merge_query).result()
+        print(f"Historical merge completed.")
     
     @task
     def cleanup_historical(staging_info):
