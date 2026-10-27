@@ -1,0 +1,204 @@
+"""
+Hourly Incremental Load DAG for Articles
+Extracts updated articles from PostgreSQL within Airflow data interval,
+loads to BigQuery staging table, and performs MERGE into target table.
+"""
+
+import os
+import json
+from datetime import datetime, timedelta
+from tempfile import NamedTemporaryFile
+
+import pandas as pd
+from sqlalchemy import create_engine
+
+from airflow.decorators import dag, task
+from airflow.providers.postgres.hooks.postgres import PostgresHook
+from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook
+
+
+DEFAULT_ARGS = {
+    'owner': 'kumparan_data_eng',
+    'depends_on_past': False,
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retries': 2,
+    'retry_delay': timedelta(minutes=5),
+}
+
+
+@dag(
+    dag_id='hourly_articles_elt',
+    default_args=DEFAULT_ARGS,
+    description='Hourly incremental ELT for articles table',
+    schedule_interval='0 * * * *',  # Run every hour
+    start_date=datetime(2024, 1, 1),
+    catchup=False,
+    max_active_runs=1,
+    tags=['articles', 'incremental', 'hourly'],
+)
+def hourly_articles_elt():
+    @task
+    def extract_articles(**context):
+        """
+        Extract rows from PostgreSQL where updated_at falls within the data interval
+        """
+        data_interval_start = context['data_interval_start']
+        data_interval_end = context['data_interval_end']
+        
+        postgres_hook = PostgresHook(postgres_conn_id='postgres_default')
+        engine = postgres_hook.get_sqlalchemy_engine()
+        
+        query = """
+        SELECT 
+            id,
+            title,
+            content,
+            published_at,
+            author_id,
+            created_at,
+            updated_at,
+            deleted_at
+        FROM articles
+        WHERE updated_at >= %s 
+          AND updated_at < %s
+        """
+        
+        df = pd.read_sql_query(
+            query,
+            engine,
+            params=(data_interval_start, data_interval_end)
+        )
+        
+        if df.empty:
+            print(f"No records found for interval {data_interval_start} to {data_interval_end}")
+            return None
+        
+        # Save to temporary file
+        temp_file = NamedTemporaryFile(mode='w', delete=False, suffix='.json', encoding='utf-8')
+        df.to_json(temp_file.name, orient='records', date_format='iso')
+        temp_file.close()
+        
+        print(f"Extracted {len(df)} records. Saved to {temp_file.name}")
+        return temp_file.name
+    
+    @task
+    def load_to_staging(extracted_file_path, **context):
+        """
+        Load extracted data into temporary staging table in BigQuery
+        """
+        if not extracted_file_path or not os.path.exists(extracted_file_path):
+            print("No file to load")
+            return None
+        
+        df = pd.read_json(extracted_file_path, orient='records')
+        
+        if df.empty:
+            os.unlink(extracted_file_path)
+            return None
+        
+        bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
+        client = bigquery_hook.get_client()
+        
+        project_id = client.project
+        dataset_id = 'kumparan_dwh'
+        staging_table_id = f"staging_articles_{context['ts_nodash']}"
+        table_ref = f"{project_id}.{dataset_id}.{staging_table_id}"
+        
+        # Convert timestamps
+        for col in ['published_at', 'created_at', 'updated_at', 'deleted_at']:
+            if col in df.columns:
+                df[col] = pd.to_datetime(df[col], errors='coerce')
+        
+        # Load to BigQuery
+        job_config = bigquery_hook.job_config
+        job_config.write_disposition = 'WRITE_TRUNCATE'
+        
+        client.load_table_from_dataframe(df, table_ref, job_config=job_config).result()
+        
+        print(f"Loaded {len(df)} records to staging table {table_ref}")
+        
+        # Store both staging table ref and original file for cleanup
+        return {
+            'staging_table': table_ref,
+            'temp_file': extracted_file_path
+        }
+    
+    @task
+    def merge_to_target(staging_info, **context):
+        """
+        Perform MERGE to upsert data from staging to target table
+        """
+        if not staging_info or not staging_info.get('staging_table'):
+            print("No staging table to merge")
+            if staging_info and staging_info.get('temp_file') and os.path.exists(staging_info['temp_file']):
+                os.unlink(staging_info['temp_file'])
+            return
+        
+        bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
+        client = bigquery_hook.get_client()
+        
+        project_id = client.project
+        dataset_id = 'kumparan_dwh'
+        target_table = f"{project_id}.{dataset_id}.articles"
+        staging_table = staging_info['staging_table']
+        
+        merge_query = f"""
+        MERGE `{target_table}` T
+        USING `{staging_table}` S
+        ON T.id = S.id
+        WHEN MATCHED THEN
+          UPDATE SET
+            title = S.title,
+            content = S.content,
+            published_at = S.published_at,
+            author_id = S.author_id,
+            created_at = S.created_at,
+            updated_at = S.updated_at,
+            deleted_at = S.deleted_at
+        WHEN NOT MATCHED THEN
+          INSERT (id, title, content, published_at, author_id, created_at, updated_at, deleted_at)
+          VALUES (S.id, S.title, S.content, S.published_at, S.author_id, S.created_at, S.updated_at, S.deleted_at)
+        """
+        
+        query_job = client.query(merge_query)
+        query_job.result()
+        
+        print(f"Merge completed. Rows affected: {query_job.num_dml_affected_rows}")
+    
+    @task
+    def cleanup(staging_info):
+        """
+        Clean up temporary files and staging tables
+        """
+        if not staging_info:
+            return
+        
+        # Remove temp file
+        temp_file = staging_info.get('temp_file')
+        if temp_file and os.path.exists(temp_file):
+            try:
+                os.unlink(temp_file)
+                print(f"Deleted temp file: {temp_file}")
+            except Exception as e:
+                print(f"Error deleting temp file: {e}")
+        
+        # Drop staging table
+        staging_table = staging_info.get('staging_table')
+        if staging_table:
+            try:
+                bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
+                client = bigquery_hook.get_client()
+                client.delete_table(staging_table, not_found_ok=True)
+                print(f"Dropped staging table: {staging_table}")
+            except Exception as e:
+                print(f"Error dropping staging table: {e}")
+    
+    # Task dependencies
+    extracted = extract_articles()
+    staged = load_to_staging(extracted)
+    merged = merge_to_target(staged)
+    cleanup(staged)
+
+
+hourly_articles_elt_dag = hourly_articles_elt()
