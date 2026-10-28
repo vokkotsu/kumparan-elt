@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Airflow generated files
+logs/
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+*.log
+
+# Credentials / secrets
+config/*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+secrets/
+service-account*.json
+
+# Byte-compiled / optimized
+*.pyc
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling / agent state
+.commandcode/
+scratchpad/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
