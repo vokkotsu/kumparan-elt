@@ -56,7 +56,6 @@ def hourly_articles_elt():
         SELECT *
         FROM articles
         WHERE updated_at >= %s
-          AND updated_at <= CURRENT_TIMESTAMP
         """
 
         df = pd.read_sql_query(
