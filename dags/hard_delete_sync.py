@@ -4,12 +4,6 @@ Runs daily at midnight to handle hard deletes
 Deletes rows in BigQuery that no longer exist in source PostgreSQL
 """
 
-import os
-from datetime import datetime, timedelta
-from tempfile import NamedTemporaryFile
-
-import pandas as pd
-
 from airflow.decorators import dag, task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook

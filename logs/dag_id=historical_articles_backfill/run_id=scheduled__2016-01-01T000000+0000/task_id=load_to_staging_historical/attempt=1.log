@@ -227,3 +227,17 @@ airflow.exceptions.AirflowException: The `keyfile_dict`, `key_path`, and `key_se
 [2026-10-27T10:18:50.975+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 55 for task load_to_staging_historical (The `keyfile_dict`, `key_path`, and `key_secret_name` fields are all mutually exclusive. Please provide only one value.; 3726)
 [2026-10-27T10:18:51.006+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
 [2026-10-27T10:18:51.032+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-27T15:03:25.503+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T15:03:25.517+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-01-01T00:00:00+00:00 [queued]>
+[2026-10-27T15:03:25.517+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2026-10-27T15:03:25.533+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_to_staging_historical> on 2016-01-01 00:00:00+00:00
+[2026-10-27T15:03:25.540+0000] {standard_task_runner.py:57} INFO - Started process 18058 to run task
+[2026-10-27T15:03:25.543+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'historical_articles_backfill', 'load_to_staging_historical', 'scheduled__2016-01-01T00:00:00+00:00', '--job-id', '623', '--raw', '--subdir', 'DAGS_FOLDER/historical_articles_backfill.py', '--cfg-path', '/tmp/tmphr2zg9rk']
+[2026-10-27T15:03:25.545+0000] {standard_task_runner.py:85} INFO - Job 623: Subtask load_to_staging_historical
+[2026-10-27T15:03:25.604+0000] {task_command.py:416} INFO - Running <TaskInstance: historical_articles_backfill.load_to_staging_historical scheduled__2016-01-01T00:00:00+00:00 [running]> on host b490f449c52e
+[2026-10-27T15:03:25.712+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kumparan_data_eng' AIRFLOW_CTX_DAG_ID='historical_articles_backfill' AIRFLOW_CTX_TASK_ID='load_to_staging_historical' AIRFLOW_CTX_EXECUTION_DATE='2016-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-01-01T00:00:00+00:00'
+[2026-10-27T15:03:27.778+0000] {logging_mixin.py:154} INFO - Loaded 69 records to staging table kumparan-elt-project.kumparan_dwh.staging_articles_backfill_20160101T000000
+[2026-10-27T15:03:27.778+0000] {python.py:194} INFO - Done. Returned value was: {'staging_table': 'kumparan-elt-project.kumparan_dwh.staging_articles_backfill_20160101T000000', 'temp_file': '/tmp/tmpe22ohhjy.json'}
+[2026-10-27T15:03:27.817+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=historical_articles_backfill, task_id=load_to_staging_historical, execution_date=20160101T000000, start_date=20261027T150325, end_date=20261027T150327
+[2026-10-27T15:03:27.882+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-10-27T15:03:27.907+0000] {taskinstance.py:2778} INFO - 2 downstream tasks scheduled from follow-on schedule check
