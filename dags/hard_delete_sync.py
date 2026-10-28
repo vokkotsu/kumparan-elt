@@ -78,15 +78,18 @@ def hard_delete_sync():
             os.unlink(extracted_file_path)
             return None
         
-        bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
-        client = bigquery_hook.get_client()
+        # Use the service account key via environment variable
+        from google.cloud import bigquery
+        client = bigquery.Client()
         
         project_id = client.project
         dataset_id = 'kumparan_dwh'
         temp_table_ref = f"{project_id}.{dataset_id}.temp_active_ids"
         
-        job_config = bigquery_hook.job_config
-        job_config.write_disposition = 'WRITE_TRUNCATE'
+        # Use LOAD job config for proper BigQuery integration
+        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
+        job_config = LoadJobConfig()
+        job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
         client.load_table_from_dataframe(df, temp_table_ref, job_config=job_config).result()
         
@@ -108,8 +111,9 @@ def hard_delete_sync():
                 os.unlink(temp_info['temp_file'])
             return
         
-        bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
-        client = bigquery_hook.get_client()
+        # Use the service account key via environment variable
+        from google.cloud import bigquery
+        client = bigquery.Client()
         
         project_id = client.project
         dataset_id = 'kumparan_dwh'
@@ -162,8 +166,9 @@ def hard_delete_sync():
         temp_ids_table = temp_info.get('temp_ids_table')
         if temp_ids_table:
             try:
-                bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
-                client = bigquery_hook.get_client()
+                # Use the service account key via environment variable
+                from google.cloud import bigquery
+                client = bigquery.Client()
                 client.delete_table(temp_ids_table, not_found_ok=True)
                 print(f"Dropped temp table: {temp_ids_table}")
             except Exception as e:
