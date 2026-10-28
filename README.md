@@ -72,12 +72,12 @@ Target table: `kumparan_dwh.articles` in BigQuery, partitioned on `DATE(created_
 
 ### 3. Hard Delete Synchronization (Bonus 2) — `hard_delete_sync`
 
-- **Purpose:** Sync rows that are physically deleted (hard deleted) in the source PostgreSQL into BigQuery, so the warehouse stays consistent with the source of truth.
+- **Purpose:** Sync rows that are physically deleted (hard deleted) in the source PostgreSQL into BigQuery by soft-deleting them (filling `deleted_at`), so the warehouse stays consistent with the source of truth while preserving historical context for BI.
 - **Schedule/Trigger:** Daily at midnight (`0 0 * * *`), `catchup=False`, `max_active_runs=1`.
 - **How it Works:**
   1. `extract_active_ids` — Extracts only the `id` column from the entire PostgreSQL `articles` table.
   2. `load_active_ids_to_bq` — Loads the active IDs into a temporary BigQuery table (`temp_active_ids`).
-  3. `delete_orphaned_rows` — Compares all `id`s in the source against the `id`s in BigQuery. If any ID exists in BigQuery but is missing in the source, rewrites the target table keeping only rows whose `id` still exists in the source (read-filter-writeback), removing orphaned rows without using BigQuery DML.
+  3. `delete_orphaned_rows` — Compares all `id`s in the source against the `id`s in BigQuery. For any ID present in BigQuery but missing in the source (and not already soft-deleted), rewrites the target table with a LEFT JOIN, setting `deleted_at = CURRENT_TIMESTAMP()` for orphaned rows while keeping all existing rows (soft delete, no physical removal).
   4. `cleanup_deletes` — Deletes the temporary file and drops the temporary IDs table.
 
 ## 4. Key Engineering Optimizations

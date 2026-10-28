@@ -130,40 +130,58 @@ def hard_delete_sync():
         """
         client.query(create_table_sql, location='asia-southeast2').result()
         
+        staging_table_id = None
+        if temp_info:
+            staging_table_id = temp_info.get('temp_ids_table')
+        if not staging_table_id:
+            print("No staging (active IDs) table available; skipping soft delete")
+            return
+
         # Read active IDs directly from source PostgreSQL (robust to missing temp table)
         from airflow.providers.postgres.hooks.postgres import PostgresHook
         postgres_hook = PostgresHook(postgres_conn_id='postgres_default')
         engine = postgres_hook.get_sqlalchemy_engine()
-        
+
         import pandas as pd
         df_active = pd.read_sql_query("SELECT id FROM articles", engine)
-        
+
         if df_active.empty:
             print("No active IDs found in source; skipping hard delete")
             return
-        
+
         # Read target table into DataFrame
         df_target = client.query(f"SELECT * FROM `{target_table_full}`", location='asia-southeast2').to_dataframe()
-        
+
         if df_target.empty:
-            print("Target table is empty; nothing to delete")
+            print("Target table is empty; nothing to soft-delete")
             return
 
         orphaned_ids = set(df_target['id'].tolist()) - set(df_active['id'].tolist())
         if not orphaned_ids:
             raise AirflowSkipException("No orphaned rows found. Skipping downstream tasks.")
 
-        # Filter: keep rows where id exists in source
-        df_filtered = df_target[df_target['id'].isin(df_active['id'])]
-        
-        # Load filtered data back to target table with WRITE_TRUNCATE
-        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
-        load_job_config = LoadJobConfig()
-        load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
-        
-        load_job = client.load_table_from_dataframe(df_filtered, target_table_full, job_config=load_job_config, location='asia-southeast2').result()
-        
-        print(f"Hard delete completed. Rows in target: {load_job.output_rows}")
+        # Soft delete: keep ALL target rows, but mark orphaned ones (missing in staging) with deleted_at
+        soft_delete_sql = f"""
+        CREATE OR REPLACE TABLE `kumparan-elt-project.kumparan_dwh.articles` AS
+        SELECT 
+            t.id, 
+            t.title, 
+            t.content, 
+            t.published_at, 
+            t.author_id, 
+            t.created_at, 
+            t.updated_at,
+            CASE 
+                WHEN s.id IS NULL AND t.deleted_at IS NULL THEN CURRENT_TIMESTAMP()
+                ELSE t.deleted_at 
+            END AS deleted_at
+        FROM `kumparan-elt-project.kumparan_dwh.articles` t
+        LEFT JOIN `{staging_table_id}` s 
+        ON t.id = s.id;
+        """
+        client.query(soft_delete_sql, location='asia-southeast2').result()
+
+        print(f"Soft delete completed. Marked {len(orphaned_ids)} orphaned row(s) as deleted.")
     
     @task(trigger_rule='all_done')
     def cleanup_deletes(temp_info):
