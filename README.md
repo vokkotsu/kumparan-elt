@@ -54,9 +54,9 @@ Target table: `kumparan_dwh.articles` in BigQuery, partitioned on `DATE(created_
 - **Purpose:** Incrementally capture new and updated articles from PostgreSQL every hour and load them into BigQuery, keeping the warehouse near real-time for BI.
 - **Schedule/Trigger:** Hourly (`0 * * * *`), `catchup=False`, `max_active_runs=1`.
 - **How it Works:**
-  1. `extract_articles` — Queries PostgreSQL for rows where `updated_at` falls within the Airflow data interval; saves them to a temporary JSON file.
+  1. `extract_articles` — Queries PostgreSQL for rows where `updated_at` is within the last hour (1-hour lookback from the logical date); saves them to a temporary JSON file.
   2. `load_to_staging` — Loads the extracted records into a BigQuery staging table (`staging_articles_<ts>`).
-  3. `merge_to_target` — Reads the staging table and upserts (MERGE) records into the target `articles` table keyed on `id`, ensuring idempotency and preventing data duplication.
+  3. `merge_to_target` — Reads the staging table and upserts records into the target `articles` table keyed on `id` (DDL-based upsert with ROW_NUMBER deduplication), ensuring idempotency and preventing data duplication.
   4. `cleanup` — Deletes the temporary file and drops the staging table.
 
 ### 2. Handling Historical Data from 2016 (Bonus 1) — `historical_articles_backfill`
@@ -66,18 +66,18 @@ Target table: `kumparan_dwh.articles` in BigQuery, partitioned on `DATE(created_
 - **How it Works:**
   1. `extract_historical_articles` — Queries PostgreSQL for rows where `created_at` falls within the execution month; saves them to a temporary JSON file.
   2. `load_to_staging_historical` — Loads the extracted records into a BigQuery staging table (`staging_articles_backfill_<ts>`).
-  3. `merge_to_target_historical` — Reads the staging table and upserts (MERGE) records into the target `articles` table keyed on `id`, ensuring idempotency and preventing data duplication.
+  3. `merge_to_target_historical` — Reads the staging table and upserts records into the target `articles` table keyed on `id` (DDL-based upsert with ROW_NUMBER deduplication), ensuring idempotency and preventing data duplication.
   4. `cleanup_historical` — Deletes the temporary file and drops the staging table.
 - **Strategy:** Instead of a single massive pull that could overwhelm the source database, the backfill is chunked month-by-month from 2016 to the current date, processing one month per DAG run sequentially.
 
 ### 3. Hard Delete Synchronization (Bonus 2) — `hard_delete_sync`
 
-- **Purpose:** Sync rows that are physically deleted (hard deleted) in the source PostgreSQL into BigQuery, so the warehouse stays consistent with the source of truth without losing historical context for BI.
+- **Purpose:** Sync rows that are physically deleted (hard deleted) in the source PostgreSQL into BigQuery, so the warehouse stays consistent with the source of truth.
 - **Schedule/Trigger:** Daily at midnight (`0 0 * * *`), `catchup=False`, `max_active_runs=1`.
 - **How it Works:**
   1. `extract_active_ids` — Extracts only the `id` column from the entire PostgreSQL `articles` table.
   2. `load_active_ids_to_bq` — Loads the active IDs into a temporary BigQuery table (`temp_active_ids`).
-  3. `delete_orphaned_rows` — Compares all `id`s in the source against the `id`s in BigQuery. For any ID present in BigQuery but missing in the source, executes a MERGE to update the `deleted_at` timestamp in BigQuery (Soft Delete in DWH), preserving historical data for BI without losing the deletion context.
+  3. `delete_orphaned_rows` — Compares all `id`s in the source against the `id`s in BigQuery. If any ID exists in BigQuery but is missing in the source, rewrites the target table keeping only rows whose `id` still exists in the source (read-filter-writeback), removing orphaned rows without using BigQuery DML.
   4. `cleanup_deletes` — Deletes the temporary file and drops the temporary IDs table.
 
 ## 4. Key Engineering Optimizations

@@ -126,7 +126,7 @@ def historical_articles_backfill():
         job_config = LoadJobConfig()
         job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
-        client.load_table_from_dataframe(df, table_ref, job_config=job_config).result()
+        client.load_table_from_dataframe(df, table_ref, job_config=job_config, location='asia-southeast2').result()
         
         print(f"Loaded {len(df)} records to staging table {table_ref}")
         
@@ -195,7 +195,7 @@ def historical_articles_backfill():
 
         print(f"Historical merge completed. Upserted data into {target_table}.")
     
-    @task
+    @task(trigger_rule='all_done')
     def cleanup_historical(staging_info):
         """
         Clean up temporary files and staging tables
@@ -216,7 +216,7 @@ def historical_articles_backfill():
             try:
                 bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
                 client = bigquery_hook.get_client()
-                client.delete_table(staging_table, not_found_ok=True)
+                client.delete_table(staging_table, not_found_ok=True, location='asia-southeast2')
                 print(f"Dropped staging table: {staging_table}")
             except Exception as e:
                 print(f"Error dropping staging table: {e}")

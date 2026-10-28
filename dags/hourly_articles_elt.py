@@ -172,7 +172,7 @@ def hourly_articles_elt():
         
         print(f"Merge completed. Upserted data into {target_table}.")
     
-    @task
+    @task(trigger_rule='all_done')
     def cleanup(staging_info):
         """
         Clean up temporary files and staging tables
