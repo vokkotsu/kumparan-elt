@@ -139,10 +139,10 @@ def hard_delete_sync():
         target_table_full = f"{project_id}.{dataset_id}.articles"
         # Read target table
         import pandas as pd
-        df_target = client.query(f"SELECT * FROM `{target_table_full}`).to_dataframe()
+        df_target = client.query(f"SELECT * FROM `{target_table_full}`").to_dataframe()
         
         # Read temp table to get active IDs
-        df_temp = client.query(f"SELECT id FROM `{temp_ids_table}`).to_dataframe()
+        df_temp = client.query(f"SELECT id FROM `{temp_ids_table}`").to_dataframe()
         
         # Filter: keep rows where id exists in temp table
         df_filtered = df_target.merge(df_temp, on='id', how='inner')
@@ -152,7 +152,7 @@ def hard_delete_sync():
         load_job_config = LoadJobConfig()
         load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
-        client.load_table_from_dataframe(df_filtered, target_table_full, job_config=load_job_config).result()
+        load_job = client.load_table_from_dataframe(df_filtered, target_table_full, job_config=load_job_config).result()
         
         print(f"Hard delete completed. Rows in target: {load_job.output_rows}")
     
