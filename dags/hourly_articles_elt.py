@@ -104,10 +104,11 @@ def hourly_articles_elt():
                 df[col] = pd.to_datetime(df[col], errors='coerce')
         
         # Load to BigQuery
-        job_config = bigquery_hook.job_config
-        job_config.write_disposition = 'WRITE_TRUNCATE'
+        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
+        job_config = LoadJobConfig()
+        job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
-        client.load_table_from_dataframe(df, table_ref, job_config=job_config).result()
+        client.load_table_from_dataframe(df, table_ref, job_config=job_config, location='asia-southeast2').result()
         
         print(f"Loaded {len(df)} records to staging table {table_ref}")
         
@@ -149,7 +150,7 @@ def hourly_articles_elt():
             deleted_at TIMESTAMP
         );
         """
-        client.query(create_table_sql).result()
+        client.query(create_table_sql, location='asia-southeast2').result()
         
         # Use LOAD job to append data to target table (works on free tier)
         from google.cloud.bigquery import LoadJobConfig, WriteDisposition
@@ -157,11 +158,11 @@ def hourly_articles_elt():
         load_job_config.write_disposition = WriteDisposition.WRITE_APPEND
         
         # Read from staging table and load to target table
-        df = client.query(f"SELECT * FROM `{staging_table}`").to_dataframe()
+        df = client.query(f"SELECT * FROM `{staging_table}`", location='asia-southeast2').to_dataframe()
         
         # Append with WRITE_APPEND to accumulate data
         target_full_name = f"{project_id}.{dataset_id}.articles"
-        load_job = client.load_table_from_dataframe(df, target_full_name, job_config=load_job_config)
+        load_job = client.load_table_from_dataframe(df, target_full_name, job_config=load_job_config, location='asia-southeast2')
         load_job.result()
         
         print(f"Merge completed. Rows added: {load_job.output_rows}")
@@ -189,7 +190,7 @@ def hourly_articles_elt():
             try:
                 bigquery_hook = BigQueryHook(gcp_conn_id='google_cloud_default')
                 client = bigquery_hook.get_client()
-                client.delete_table(staging_table, not_found_ok=True)
+                client.delete_table(staging_table, not_found_ok=True, location='asia-southeast2')
                 print(f"Dropped staging table: {staging_table}")
             except Exception as e:
                 print(f"Error dropping staging table: {e}")
