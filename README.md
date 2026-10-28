@@ -82,12 +82,12 @@ Target table: `kumparan_dwh.articles` in BigQuery, partitioned on `DATE(created_
 
 ## 4. Key Engineering Optimizations
 
-- **Cost & Compute Efficiency (Short-Circuiting):** Implemented `AirflowSkipException` to short-circuit and skip downstream tasks when 0 rows are extracted, marking tasks as *Skipped* instead of processing empty data — saving compute and BigQuery costs.
+- **Cost & Compute Efficiency (Short-Circuiting):** Implemented `AirflowSkipException` to short-circuit and skip downstream tasks when 0 rows are extracted (hourly/historical), or when no orphaned rows are detected (hard-delete sync), marking tasks as *Skipped* instead of processing empty/no-op data — saving compute and BigQuery costs.
 - **Resiliency (Self-Healing Schema):** Uses `CREATE TABLE IF NOT EXISTS` before merging, so target/staging tables are created automatically if missing.
-- **Idempotency:** Uses BigQuery MERGE (upsert based on `id`) to prevent duplicate rows even if DAGs are rerun.
+- **Idempotency:** Uses a DDL-based upsert (`CREATE OR REPLACE TABLE ... AS SELECT ... ROW_NUMBER() OVER (PARTITION BY id ...)`) to deduplicate by `id` (keeping the latest `updated_at`), preventing duplicate rows even if DAGs are rerun — BigQuery Free Tier friendly.
 - **Free-Tier Friendly:** The hard-delete sync avoids BigQuery DML (which requires billing) by using a read-filter-writeback approach.
 - **Robust Retries:** Downstream tasks read source data directly, so retries succeed even if temporary tables were already cleaned up.
-- **No `trigger_rule` overrides:** Downstream tasks rely on Airflow's default behavior and are automatically skipped when an upstream task is skipped.
+- **Trigger rules:** Downstream tasks rely on Airflow's default behavior and are automatically skipped when an upstream task is skipped. Cleanup tasks use `trigger_rule='all_done'` so temporary files/tables are removed even when an upsert is skipped.
 
 ## 5. Setup & Running
 

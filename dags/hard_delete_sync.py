@@ -91,7 +91,7 @@ def hard_delete_sync():
         job_config = LoadJobConfig()
         job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
-        client.load_table_from_dataframe(df, temp_table_ref, job_config=job_config).result()
+        client.load_table_from_dataframe(df, temp_table_ref, job_config=job_config, location='asia-southeast2').result()
         
         print(f"Loaded {len(df)} active IDs to {temp_table_ref}")
         
@@ -128,7 +128,7 @@ def hard_delete_sync():
             deleted_at TIMESTAMP
         );
         """
-        client.query(create_table_sql).result()
+        client.query(create_table_sql, location='asia-southeast2').result()
         
         # Read active IDs directly from source PostgreSQL (robust to missing temp table)
         from airflow.providers.postgres.hooks.postgres import PostgresHook
@@ -143,12 +143,16 @@ def hard_delete_sync():
             return
         
         # Read target table into DataFrame
-        df_target = client.query(f"SELECT * FROM `{target_table_full}`").to_dataframe()
+        df_target = client.query(f"SELECT * FROM `{target_table_full}`", location='asia-southeast2').to_dataframe()
         
         if df_target.empty:
             print("Target table is empty; nothing to delete")
             return
-        
+
+        orphaned_ids = set(df_target['id'].tolist()) - set(df_active['id'].tolist())
+        if not orphaned_ids:
+            raise AirflowSkipException("No orphaned rows found. Skipping downstream tasks.")
+
         # Filter: keep rows where id exists in source
         df_filtered = df_target[df_target['id'].isin(df_active['id'])]
         
@@ -157,11 +161,11 @@ def hard_delete_sync():
         load_job_config = LoadJobConfig()
         load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
         
-        load_job = client.load_table_from_dataframe(df_filtered, target_table_full, job_config=load_job_config).result()
+        load_job = client.load_table_from_dataframe(df_filtered, target_table_full, job_config=load_job_config, location='asia-southeast2').result()
         
         print(f"Hard delete completed. Rows in target: {load_job.output_rows}")
     
-    @task
+    @task(trigger_rule='all_done')
     def cleanup_deletes(temp_info):
         """
         Clean up temporary files and tables
@@ -183,7 +187,7 @@ def hard_delete_sync():
                 # Use the service account key via environment variable
                 from google.cloud import bigquery
                 client = bigquery.Client()
-                client.delete_table(temp_ids_table, not_found_ok=True)
+                client.delete_table(temp_ids_table, not_found_ok=True, location='asia-southeast2')
                 print(f"Dropped temp table: {temp_ids_table}")
             except Exception as e:
                 print(f"Error dropping temp table: {e}")
