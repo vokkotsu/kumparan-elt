@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from tempfile import NamedTemporaryFile
 
 import pandas as pd
+import pendulum
 from sqlalchemy import create_engine
 
 from airflow.decorators import dag, task
@@ -44,31 +45,24 @@ def hourly_articles_elt():
         """
         Extract rows from PostgreSQL where updated_at falls within the data interval
         """
-        data_interval_start = context['data_interval_start']
-        data_interval_end = context['data_interval_end']
-        
+        logical_date = context['logical_date']
+        lower_bound = logical_date - pendulum.duration(hours=1)
+        lower_bound_str = lower_bound.strftime('%Y-%m-%d %H:%M:%S')
+
         postgres_hook = PostgresHook(postgres_conn_id='postgres_default')
         engine = postgres_hook.get_sqlalchemy_engine()
-        
+
         query = """
-        SELECT 
-            id,
-            title,
-            content,
-            published_at,
-            author_id,
-            created_at,
-            updated_at,
-            deleted_at
+        SELECT *
         FROM articles
-        WHERE updated_at >= %s 
+        WHERE updated_at >= %s
           AND updated_at <= CURRENT_TIMESTAMP
         """
-        
+
         df = pd.read_sql_query(
             query,
             engine,
-            params=(data_interval_start,)
+            params=(lower_bound_str,)
         )
         
         if df.empty:
