@@ -103,26 +103,21 @@ def hard_delete_sync():
     @task
     def delete_orphaned_rows(temp_info):
         """
-        Delete rows in articles table where id does NOT exist in temp_active_ids
+        Delete rows in articles table where id does NOT exist in source PostgreSQL
+        Reads active IDs directly from source so the task is robust to a missing
+        temp table (e.g. after a retry where cleanup already dropped it).
         """
-        if not temp_info or not temp_info.get('temp_ids_table'):
-            print("No temp active IDs table to compare")
-            if temp_info and temp_info.get('temp_file') and os.path.exists(temp_info['temp_file']):
-                os.unlink(temp_info['temp_file'])
-            return
-        
         # Use the service account key via environment variable
         from google.cloud import bigquery
         client = bigquery.Client()
         
         project_id = client.project
         dataset_id = 'kumparan_dwh'
-        target_table = f"{project_id}.{dataset_id}.articles"
-        temp_ids_table = temp_info['temp_ids_table']
+        target_table_full = f"{project_id}.{dataset_id}.articles"
         
         # Ensure target table exists before LOAD
         create_table_sql = f"""
-        CREATE TABLE IF NOT EXISTS `{target_table}` (
+        CREATE TABLE IF NOT EXISTS `{target_table_full}` (
             id INT64,
             title STRING,
             content STRING,
@@ -135,17 +130,27 @@ def hard_delete_sync():
         """
         client.query(create_table_sql).result()
         
-        # Read target table into DataFrame, filter out unwanted rows, and write back
-        target_table_full = f"{project_id}.{dataset_id}.articles"
-        # Read target table
+        # Read active IDs directly from source PostgreSQL (robust to missing temp table)
+        from airflow.providers.postgres.hooks.postgres import PostgresHook
+        postgres_hook = PostgresHook(postgres_conn_id='postgres_default')
+        engine = postgres_hook.get_sqlalchemy_engine()
+        
         import pandas as pd
+        df_active = pd.read_sql_query("SELECT id FROM articles", engine)
+        
+        if df_active.empty:
+            print("No active IDs found in source; skipping hard delete")
+            return
+        
+        # Read target table into DataFrame
         df_target = client.query(f"SELECT * FROM `{target_table_full}`").to_dataframe()
         
-        # Read temp table to get active IDs
-        df_temp = client.query(f"SELECT id FROM `{temp_ids_table}`").to_dataframe()
+        if df_target.empty:
+            print("Target table is empty; nothing to delete")
+            return
         
-        # Filter: keep rows where id exists in temp table
-        df_filtered = df_target.merge(df_temp, on='id', how='inner')
+        # Filter: keep rows where id exists in source
+        df_filtered = df_target[df_target['id'].isin(df_active['id'])]
         
         # Load filtered data back to target table with WRITE_TRUNCATE
         from google.cloud.bigquery import LoadJobConfig, WriteDisposition
@@ -186,7 +191,8 @@ def hard_delete_sync():
     extracted = extract_active_ids()
     loaded = load_active_ids_to_bq(extracted)
     deleted = delete_orphaned_rows(loaded)
-    cleanup_deletes(loaded)
+    cleanup = cleanup_deletes(loaded)
+    deleted >> cleanup
 
 
 hard_delete_sync_dag = hard_delete_sync()
