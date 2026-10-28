@@ -11,6 +11,7 @@ from tempfile import NamedTemporaryFile
 import pandas as pd
 
 from airflow.decorators import dag, task
+from airflow.exceptions import AirflowSkipException
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook
 
@@ -53,8 +54,7 @@ def hard_delete_sync():
         df = pd.read_sql_query(query, engine)
         
         if df.empty:
-            print("No active IDs found in source")
-            return None
+            raise AirflowSkipException("No new records found for this interval. Skipping downstream tasks.")
         
         temp_file = NamedTemporaryFile(mode='w', delete=False, suffix='.csv', encoding='utf-8')
         df.to_csv(temp_file.name, index=False)

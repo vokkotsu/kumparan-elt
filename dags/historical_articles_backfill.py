@@ -11,6 +11,7 @@ from tempfile import NamedTemporaryFile
 import pandas as pd
 
 from airflow.decorators import dag, task
+from airflow.exceptions import AirflowSkipException
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook
 
@@ -77,8 +78,7 @@ def historical_articles_backfill():
         
         print(f"Extracted {len(df)} rows")
         if df.empty:
-            raise ValueError(f"No records found for {month_start.strftime('%Y-%m')}")
-            return None
+            raise AirflowSkipException("No new records found for this interval. Skipping downstream tasks.")
         
         temp_file = NamedTemporaryFile(mode='w', delete=False, suffix='.json', encoding='utf-8')
         df.to_json(temp_file.name, orient='records', date_format='iso')

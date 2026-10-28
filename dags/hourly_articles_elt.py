@@ -13,6 +13,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 from airflow.decorators import dag, task
+from airflow.exceptions import AirflowSkipException
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook
 
@@ -71,8 +72,7 @@ def hourly_articles_elt():
         )
         
         if df.empty:
-            print(f"No records found for interval {data_interval_start} to {data_interval_end}")
-            return None
+            raise AirflowSkipException("No new records found for this interval. Skipping downstream tasks.")
         
         # Save to temporary file
         temp_file = NamedTemporaryFile(mode='w', delete=False, suffix='.json', encoding='utf-8')
