@@ -120,7 +120,7 @@ def hard_delete_sync():
         target_table = f"{project_id}.{dataset_id}.articles"
         temp_ids_table = temp_info['temp_ids_table']
         
-        # Ensure target table exists before DELETE
+        # Ensure target table exists before LOAD
         create_table_sql = f"""
         CREATE TABLE IF NOT EXISTS `{target_table}` (
             id INT64,
@@ -135,17 +135,26 @@ def hard_delete_sync():
         """
         client.query(create_table_sql).result()
         
-        delete_query = f"""
-        DELETE FROM `{target_table}`
-        WHERE id NOT IN (
-            SELECT id FROM `{temp_ids_table}`
-        )
-        """
+        # Read target table into DataFrame, filter out unwanted rows, and write back
+        target_table_full = f"{project_id}.{dataset_id}.articles"
+        # Read target table
+        import pandas as pd
+        df_target = client.query(f"SELECT * FROM `{target_table_full}`).to_dataframe()
         
-        query_job = client.query(delete_query)
-        query_job.result()
+        # Read temp table to get active IDs
+        df_temp = client.query(f"SELECT id FROM `{temp_ids_table}`).to_dataframe()
         
-        print(f"Hard delete completed. Rows affected: {query_job.num_dml_affected_rows}")
+        # Filter: keep rows where id exists in temp table
+        df_filtered = df_target.merge(df_temp, on='id', how='inner')
+        
+        # Load filtered data back to target table with WRITE_TRUNCATE
+        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
+        load_job_config = LoadJobConfig()
+        load_job_config.write_disposition = WriteDisposition.WRITE_TRUNCATE
+        
+        client.load_table_from_dataframe(df_filtered, target_table_full, job_config=load_job_config).result()
+        
+        print(f"Hard delete completed. Rows in target: {load_job.output_rows}")
     
     @task
     def cleanup_deletes(temp_info):
