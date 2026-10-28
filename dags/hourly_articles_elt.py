@@ -62,13 +62,13 @@ def hourly_articles_elt():
             deleted_at
         FROM articles
         WHERE updated_at >= %s 
-          AND updated_at < %s
+          AND updated_at <= CURRENT_TIMESTAMP
         """
         
         df = pd.read_sql_query(
             query,
             engine,
-            params=(data_interval_start, data_interval_end)
+            params=(data_interval_start,)
         )
         
         if df.empty:
