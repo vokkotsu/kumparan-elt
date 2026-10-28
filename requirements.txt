@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+psycopg2-binary
+google-cloud-bigquery
+google-auth
+pyarrow
+apache-airflow==2.7.3
+pendulum
