@@ -152,20 +152,25 @@ def hourly_articles_elt():
         """
         client.query(create_table_sql, location='asia-southeast2').result()
         
-        # Use LOAD job to append data to target table (works on free tier)
-        from google.cloud.bigquery import LoadJobConfig, WriteDisposition
-        load_job_config = LoadJobConfig()
-        load_job_config.write_disposition = WriteDisposition.WRITE_APPEND
+        # DDL-based upsert (deduplication) to avoid duplicates on re-runs
+        upsert_query = f"""
+        CREATE OR REPLACE TABLE `{target_table}` AS
+        SELECT id, title, content, published_at, author_id, created_at, updated_at, deleted_at
+        FROM (
+            SELECT *, ROW_NUMBER() OVER (PARTITION BY id ORDER BY updated_at DESC) AS rn
+            FROM (
+                SELECT id, title, content, CAST(published_at AS TIMESTAMP) AS published_at, author_id, CAST(created_at AS TIMESTAMP) AS created_at, CAST(updated_at AS TIMESTAMP) AS updated_at, CAST(deleted_at AS TIMESTAMP) AS deleted_at
+                FROM `{target_table}`
+                UNION ALL
+                SELECT id, title, content, CAST(published_at AS TIMESTAMP) AS published_at, author_id, CAST(created_at AS TIMESTAMP) AS created_at, CAST(updated_at AS TIMESTAMP) AS updated_at, CAST(deleted_at AS TIMESTAMP) AS deleted_at
+                FROM `{staging_table}`
+            )
+        )
+        WHERE rn = 1;
+        """
+        client.query(upsert_query, location='asia-southeast2').result()
         
-        # Read from staging table and load to target table
-        df = client.query(f"SELECT * FROM `{staging_table}`", location='asia-southeast2').to_dataframe()
-        
-        # Append with WRITE_APPEND to accumulate data
-        target_full_name = f"{project_id}.{dataset_id}.articles"
-        load_job = client.load_table_from_dataframe(df, target_full_name, job_config=load_job_config, location='asia-southeast2')
-        load_job.result()
-        
-        print(f"Merge completed. Rows added: {load_job.output_rows}")
+        print(f"Merge completed. Upserted data into {target_table}.")
     
     @task
     def cleanup(staging_info):
