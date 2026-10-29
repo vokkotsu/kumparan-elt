@@ -27,6 +27,8 @@ kumparan_elt/
 ├── docker-compose.yml             # Airflow + Postgres services
 ├── SETUP_INSTRUCTIONS.md          # Connection setup guide
 ├── generate_data.py               # Source data generator
+├── requirements.txt               # Python dependencies
+├── LICENSE                        # Copyright notice
 └── README.md
 ```
 
